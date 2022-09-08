@@ -1,0 +1,63 @@
+/* Base styles */
+body {
+  background: #e6e6e6;
+  font-family: arial;
+  margin: 25px;
+}
+
+section {
+  margin: 60px auto;
+  width: 900px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Specific styles */
+.description {
+  line-height: 1.4;  
+}
+
+.example-code {
+  background: #fff;
+  border: #000 solid 1px;
+  margin: 15px 0;
+  padding: 15px;
+  overflow-x: auto;
+  background: #fff;
+  font-family: courier;
+  display:block;
+}
+
+.code-line {
+  display: block;  
+}
+
+/* Code indention steps - this is bad code but let's not add Sass into this learning exercise */
+.code-indent-1x { padding-left: 20px; }
+.code-indent-2x { padding-left: 40px; }
+.code-indent-3x { padding-left: 60px; }
+.code-indent-4x { padding-left: 80px; }
+
+input {
+  display: block;
+  font-family: Arial;
+  margin-top: 20px;
+}
+
+.city {
+  border: 1px solid #000;
+  display: inline;
+  padding: 5px;
+}
+
+.green {
+  color: #008f47;
+}
+
+/* Applied only by JS */
+.red {
+  color: red;
+}

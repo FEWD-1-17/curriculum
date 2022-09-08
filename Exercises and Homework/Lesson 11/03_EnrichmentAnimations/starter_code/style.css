@@ -1,0 +1,45 @@
+body {
+  font-family: 'Lora', serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.text-time {
+  text-align: center;
+}
+
+.button {
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px;
+}
+
+.subtle-button {
+  background-color: goldenrod;
+}
+
+.sideways-gradient {
+  height: 200px;
+  margin: 10px;
+}
+
+
+.mcconaughey-caption {
+  text-align: center;
+}

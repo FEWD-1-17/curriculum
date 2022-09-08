@@ -1,0 +1,48 @@
+
+/* Header & Top Navigation */
+
+.pbeTopHeader {
+    background: black;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #22495E;
+}
+
+.pbeTopHeaderInner {
+    max-width:1170px;
+    margin:0 auto;
+    display:flex;
+}
+
+.pbeTopHeaderSiteLogo {
+    margin: 10px 20px 10px 0;
+}
+
+.pbeTopHeaderSiteNavigation {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    display:flex;
+    align-items:center;
+}
+
+.pbeTopHeaderSiteNavigation ul {
+    display:flex;
+    align-content: center;
+    margin:0;
+    padding:0;
+}
+
+.pbeTopHeaderSiteNavigation a:link,
+.pbeTopHeaderSiteNavigation a:visited {
+    color: #CCB87C;
+    text-decoration:none;
+    display:block;
+    text-transform: uppercase;
+    padding: 36px 20px;
+}
+
+.pbeTopHeaderSiteNavigation a:hover {
+    color: white;
+}
+

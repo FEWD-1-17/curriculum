@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Homework 6 - Solution Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./base-style.css">
+    <link rel="stylesheet" href="./interactive-style.css">
+
+</head>
+
+<body>
+<header class="trulia-nav">
+    <nav class="trulia-nav-left">
+        <a href="#"  class="trulia-nav-item">
+            <img src="images/logo.svg" alt="Trulia" class="trulia-nav-logo">
+        </a>
+        <a class="trulia-nav-toggle" href="#">&#9776;</a>
+
+        <ul class="trulia-nav-mobilehide">
+            <li><a class="trulia-nav-item" href="#">Buy</a></li>
+            <li><a class="trulia-nav-item" href="#">Rent</a></li>
+            <li><a class="trulia-nav-item" href="#">Mortgage</a></li>
+            <li><a class="trulia-nav-item" href="#">Local Scoop</a></li>
+        </ul>
+    </nav>
+    <nav class="trulia-nav-right">
+        <ul class="trulia-nav-mobilehide">
+            <li><a href="#" class="trulia-nav-item">Saved Homes</a></li>
+            <li><a href="#" class="trulia-nav-item">Saved Searches</a></li>
+            <li><a href="#" class="trulia-nav-item"><span class="circleLink">j</span>jsir</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="trulia-breadcrumb-container">
+    <div class="trulia-breadcrumb-text">
+        <h1>Homes For Sale & Real Estate in 20010</h1>
+        <p>79 homes available on Trulia</p>
+    </div>
+</section>
+
+<main class="trulia-grid">
+
+    <!-- Example grid-item -->
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-1">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$475,000</h1> <img class="arrow-svg" src="images/up-sign.svg"></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">2 bd
+                    </li>
+
+                    <li class="trulia-house-baths"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">2 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">715 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    3205 Georgia Ave NW #403<br/>
+                    Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item trulia-featured-grid-item">
+        <div class="trulia-house-image trulia-house-image-2">
+            <div class="new-box">New
+            </div>
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$000,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">2 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">3 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">1200 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    3615 10th St NW #B<br>
+                    Columbia Heights, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-3">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$600,000</h1> <img class="arrow-svg" src="images/up-sign.svg"></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">3 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">2 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">1100 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    3120 Park Pl NW<br/>
+                    Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-4">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$630,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">2 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">3 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">1,500 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    3221 Warder St NW #1<br>Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-5">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$1,295,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">9 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">6 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">3,100 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    705 Kenyon St NW<br>
+                    Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-6">
+            <div class="new-box">New
+            </div>
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$1,049,900</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">6 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">4 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">2,688 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    1363 Oak St NW<br>
+                    Columbia Heights, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-7">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$720,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">3 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">3 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">1,850 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    1307 Irving St NW #1<br>
+                    Columbia Heights, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-8">
+            <div class="by-owner-box">For sale by owner
+            </div>
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$760,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">3 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">3 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">1,920 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    752 Park Rd NW<br>
+                    Columbia Heights, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-9">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$760,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">3 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">3 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">1,715 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    2932 Vernon Pl NW #1<br/>
+                    Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-10">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$999,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">2 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">2 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">715 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    3205 Georgia Ave NW #403<br>
+                    Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-11">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$474,500</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"  class="trulia-article-icon">2 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">1 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">964 sqft</li>
+                </ul>
+            </li>
+            <li class="trulia-house-address">
+                <p>1356 Kenyon St NW #B</p>
+            </li>
+            <li class="trulia-house-location">
+                <p>Columbia Heights, Washington, DC</p>
+            </li>
+        </ul>
+    </article>
+
+    <article class="trulia-grid-item">
+        <div class="trulia-house-image trulia-house-image-12">
+        </div>
+        <ul class="trulia-house-facts">
+            <li class="trulia-house-price"><h1>$399,000</h1></li>
+            <li class="trulia-house-stats">
+                <ul>
+                    <li class="trulia-house-beds">
+                        <img  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png" class="trulia-article-icon">1 bd
+                    </li>
+
+                    <li class="trulia-house-baths">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png" class="trulia-article-icon">1 ba
+                    </li>
+
+                    <li class="trulia-house-sqft">462 sqft</li>
+                </ul>
+            </li>
+            <li>
+                <address class="trulia-house-address">
+                    3205 Georgia Ave NW #505<br/>
+                    Pleasant Plains, Washington, DC
+                </address>
+            </li>
+        </ul>
+    </article>
+
+</main>
+
+<section class="results-navigation">
+    <ul class="page-ui">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">></a></li>
+    </ul>
+    <div class="page-result-number">
+        <p>1 - 30 of 79 Results</p>
+    </div>
+    <ul class="page-breadcrumb">
+        <li><a href="#">United States</a></li>
+        <li>></li>
+        <li><a href="#"> District of Columbia</a></li>
+        <li>></li>
+        <li><a href="#">Washington</a></li>
+        <li>></li>
+        <li>20010</li>
+    </ul>
+</section>
+
+<section class="real-estate-insights">
+    <h2>20010 Real Estate Insights</h2>
+    <p>Zipcode 20010 is located in Washington, District of Columbia.</p>
+    <p>The plethora of gorcery stores in ZIP code 20010 makes it easy to stock up on specialty foods, like organic and
+        gluten-free without having to leave the area. There is <a href="#">easy access to public transportation</a>.
+        which is the preferred way to travel here due to its ease of use and abundant travel options. Bicycles are big
+        sellers in ZIP code 20010; everyone seems to be riding these days, whether it's for the daily communte or a fun
+        afternoon with the family.</p>
+    <p>Many houses in ZIP 20010 are historic with one-of-a-kind architecture, and it's clear to see why it's so
+        important to maintain them and keep history living on. This year, the average listing price grew to $658,471 in
+        this locale, a noticeable appreciation of 12.5 percent from $585,528 the year prior. During the same period,
+        inventory is noticeably increasing in this locale year-over-year, with a 20 percent increase in for-sale
+        listings last year alone. Enjoy a cozy night by the fire, as many residences here come equipped with authetntic
+        fireplaces. Zip code 20010 has some great historic estates so if you move to one of these homes, you'll be
+        inheriting a peice of history. If you enjoy a view and the abiliy to see far and wide, <a href="#">consider a
+            penthouse in this place</a> for an unparalleled experience.</p>
+</section>
+
+<footer class="trulia-site-footer">
+    <ul class="footer-links">
+        <li><a href="#">About Trulia</a></li>
+        <li><a href="#">About Zillow Group</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Advertising Terms</a></li>
+        <li><a href="#">Privacy Terms of Use</a></li>
+        <li><a href="#">Listings Quality Policy</a></li>
+        <li><a href="#">Subscription Terms</a></li>
+        <li><a href="#">Ad Choices</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+    <p class="copyright">Copyright © 2018 Trulia, LLC. All rights reserved. Equal Housing Opportunity.</p>
+</footer>
+
+<script src="js/trulia.js"></script>
+</body>
+</html>

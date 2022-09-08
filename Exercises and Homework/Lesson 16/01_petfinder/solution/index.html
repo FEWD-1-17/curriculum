@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Pet Information</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="petsHeader">
+    <div class="petsHeaderInner">
+        <p class="miniBrand">General Assembly</p>
+        <h1>Pet Finder</h1>
+    </div>
+</header>
+    <section class="petsOuterContainer">
+        <h1>Pet Information & Finder</h1>
+        <form>
+            <label for="petType">Pet Type</label>
+            <select id="petType">
+                <option value="dog" selected>Dog</option>
+                <option value="guineapig">Guinea Pig</option>
+                <option value="horse">Horse</option>
+            </select>
+        </form>
+
+        <main class="petInfoMain">
+            <h1 class="petDisplayName"></h1>
+
+            <div class="petsData">
+
+                <dl class="petsDataSpecs">
+                </dl>
+            </div><!-- end petsData -->
+
+            <div class="petsGallery">
+                <div class="photoHaus">
+                    <img class="photoLarge" alt="" src=""/>
+                </div>
+                <div class="thumbHaus">
+
+                </div>
+            </div>
+
+            <div class="petsMoreData">
+
+                <h2>Ideal For:</h2>
+                <ul class="idealFor">
+
+                </ul>
+
+                <h2>Adoption Groups</h2>
+                <ul class="adoptionGroups">
+
+                </ul>
+
+            </div>
+        </main>
+
+    </section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/exercise.js"></script>
+
+</body>
+</html>

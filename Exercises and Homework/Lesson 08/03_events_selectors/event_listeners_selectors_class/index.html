@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Event Listener Reference- Class Selectors</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <h2>Class Selectors</h2>
+
+<!--1 Using vanilla JS selector (getElementsByClassName) within a global scope -->  
+<section class="js-getelementbyid-ugly">
+  <div class="description">1- We are selecting and manipulating in pure JS which uses <a class="code" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName">getElementsByClassName("class-name")[#]</a> to find the div class (NOTE: no <span class="code">.</span> is required with this selector). You may notice <span class="code">[0]</span> attached to the selector and wonder, "Why is this here and not for <span class="code">getElementById()</span>?". HTML only allows one ID per tag whereas you can have multiple classes. So the <span class="code">getElementById()</span> method returns a precise value whereas <span class="code">getElementsByClassName()</span> method returns a JS array object of all tags that contain the class. In our very simplified example, we know there is only one instance of <span class="code">js02class</span> so we can just call position <span class="code">0</span> in our array object and get the result we want.</div>
+  <code class="example-code">
+    <span class="code-line">document.<span class="green">getElementsByClassName("js02class")[0]</span>.addEventListener("click", function() {</span>
+    <span class="code-line code-indent-1x">document.<span class="green">getElementsByClassName("stronghold")[0]</span>.classList.toggle("red");</span>
+    <span class="code-line">});</span>
+    <input type="button" class="js02class" value="Click to see me in action" />
+  </code>
+  <div class="city stronghold">Stronghold</div>
+</section>
+
+<!--2 Using vanilla JS selector with function / variables -->
+<section class="js-getelementsbyclassname-pretty">
+  <div class="description">2- This does the EXACT same thing as 1 using pure JS and the same methods but using the <span class="code">petworth</span> function and declaring the selectors as variables. The function encapsulates this into a mini-program and properly scopes the variables to limit themselves to only this function. This is a best-practice way to write JS.
+    <code class="example-code">
+      <span class="code-line">function petworth ( ButtonID, SelectorID ) {</span>
+      <span class="code-line code-indent-1x">var petworthButton = document.<span class="green">getElementsByClassName(ButtonID)[0]</span>;</span>
+      <span class="code-line code-indent-1x">var petworthSelector = document.<span class="green">getElementsByClassName(SelectorID)[0]</span>;</span>
+      <span class="code-line code-indent-1x">petworthButton.addEventListener("click", function(){</span>
+      <span class="code-line code-indent-2x">petworthSelector.classList.toggle("red");</span>
+      <span class="code-line code-indent-1x">});</span>
+      <span class="code-line">}</span>
+      <span class="code-line">petworth( "js03class" , "petworth" );</span>
+      <input type="button" class="js03class" value="Click to see me in action" />
+    </code>
+    <div class="city petworth">Petworth</div>
+    </section>
+
+  <!--3 Using vanilla JS selectors querySelector() withinfunction / variables -->
+  <section class="js-queryselector-pretty">
+    <div class="description">3- This codeblock maintains the function variable and setup from 2 but uses <a class="code" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector">querySelector</a> instead of <span class="code">getElementsByClassName()</span> for selecting the class. Your not-so-humble prof thinks <span class="code">querySelector()</span> is much better than <span class="code">getElementsByClassName()</span> because the selector syntax is uniform between IDs and classes, similar to jQuery. That's why you have to add <span class="code">.</span> for class queries and <span class="code">#</span> for ID queries when you pass the declarations into the function.
+      <code class="example-code">
+        <span class="code-line">function dupont ( ButtonID, SelectorID ) {</span>
+        <span class="code-line code-indent-1x">var dupontButton = document.<span class="green">querySelector(ButtonID)</span>;</span>
+        <span class="code-line code-indent-1x">var dupontSelector = document.<span class="green">querySelector(SelectorID)</span>;</span>
+        <span class="code-line code-indent-1x">dupontButton.addEventListener("click", function(){</span>
+        <span class="code-line code-indent-2x">dupontSelector.classList.toggle("red");</span>
+        <span class="code-line code-indent-1x">});</span>
+        <span class="code-line">}</span>
+        <span class="code-line">dupont( ".js04class" , ".dupont" );</span>
+        <input type="button" class="js04class" value="Click to see me in action" />
+      </code>
+      <div class="city dupont">Dupont Circle</div>
+      </section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

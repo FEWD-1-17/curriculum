@@ -1,0 +1,264 @@
+/*---
+ * Elements
+ --- */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  background-color: #111;
+}
+
+main {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Play', sans-serif;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/*---
+ * Animations
+ --- */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes backAndForth {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-300%);
+  }
+
+  75% {
+    transform: translateX(300%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+/*---
+ * Base
+ --- */
+.outer-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*---
+ * Typography
+ --- */
+.title {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.title--xl-large {
+  display: block;
+  position: relative;
+  font-size: 6rem;
+  letter-spacing: 10px;
+}
+.title--xl-large:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  height: 4px;
+  transform: rotate(-10deg);
+  background-color: #111;
+}
+
+/*---
+ * Form
+ --- */
+.btn {
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+  animation: 2s linear infinite blink;
+}
+
+/*---
+ * Modules
+ --- */
+.ball {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: 3s linear infinite backAndForth;
+  cursor: pointer;
+}
+
+/*---
+ * Partials
+ --- */
+.level-header {
+  padding: 2rem 0;
+}
+
+.level-header .outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.level-header__title,
+.level-header__score {
+  /* width: 40%; */
+}
+
+.level-header h2,
+.level-header h4 {
+  display: inline;
+}
+
+.level-arena {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.level-winner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+  background-color: #111;
+  text-align: center;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 250ms ease;
+}
+
+.game-over .level-winner {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.level-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.level-nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.level-nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.level-nav li:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.level-nav a {
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1rem;
+  overflow: hidden;
+  transition: all 400ms ease;
+}
+
+.level-nav a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  height: 200%;
+  width: 200%;
+  background-color: #fff;
+  transition: all 400ms ease;
+  transform: translateY(100%) rotate(0deg);
+  z-index: -1;
+}
+
+.level-nav a:hover {
+  color: #000;
+}
+
+.level-nav a:hover:after {
+  transform: translateY(-25%) rotate(10deg);
+}
+
+
+/*---
+ * Views
+ --- */
+.homepage main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.level-two .ball:first-of-type {
+  top: 35%;
+  animation-delay: 1s;
+}
+
+.level-two .ball:last-of-type {
+  top: 65%;
+  animation-delay: 2s;
+}
+
+.level-three .ball:first-of-type {
+  top: 35%;
+  height: 1.5rem;
+  width: 1.5rem;
+  animation-delay: 1s;
+}
+
+.level-three .ball:last-of-type {
+  top: 65%;
+  height: 3rem;
+  width: 3rem;
+  animation-delay: 2s;
+}

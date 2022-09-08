@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Event Listener Reference- ID Selectors</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <h2>ID Selectors</h2>
+
+  <!--2 Using pure JS selector (getElementByID) within a global scope -->  
+  <section class="js-getelementbyid-ugly">
+    <div class="description">1- Vanilla JS ID selection uses <a class="code" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById">getElementById("IDNAME")</a> to find the div ID (NOTE: no # sign is required). This code block also makes use of the methods <a class="code" href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">addEventListener()</a> (equivalent to jQuery's <span class="code">click</span>) and <a class="code" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList">classList.toggle()</a> (equivalent to jQuery's <span class="code">toggleClass</span>). Notice I didn't wrap this in a function. I'm showing you that you can do JS like this but this is not best practice because it makes variable declarations global!</div>
+    <code class="example-code">
+      <span class="code-line">document.<span class="green">getElementById("js02ID")</span>.addEventListener("click", function() {</span>
+      <span class="code-line code-indent-1x">document.<span class="green">getElementById("anacostia")</span>.classList.toggle("red");</span>
+      <span class="code-line">});</span>
+      <input type="button" id="js02ID" value="Click to see me in action" />
+    </code>
+    <div id="anacostia" class="city">Anacostia</div>
+  </section>
+
+  <!--2 Using pure JS selectors (getElementByID) with function / variables -->
+  <section class="js-getelementbyid-pretty">
+    <div class="description">2- This does the EXACT same thing as 1 using pure JS and the same methods. The difference is that I am declaring the <span class="code">foggyBottom</span> function and declaring the selectors as variables. The function encapsulates this into a mini-program and properly scopes the variables to limit themselves to only this function. This is a best-practice way to write a JS function.
+    <code class="example-code">
+      <span class="code-line">function foggybottom ( ButtonID, SelectorID ) {</span>
+      <span class="code-line code-indent-1x">var foggybottomButton = document.<span class="green">getElementById(ButtonID)</span>;</span>
+      <span class="code-line code-indent-1x">var foggybottomSelector = document.<span class="green">getElementById(SelectorID)</span>;</span>
+      <span class="code-line code-indent-1x">foggybottomButton.addEventListener("click", function(){</span>
+      <span class="code-line code-indent-2x">foggybottomSelector.classList.toggle("red");</span>
+      <span class="code-line code-indent-1x">});</span>
+      <span class="code-line">}</span>
+      <span class="code-line">foggybottom( "js03ID" , "foggybottom" );</span>
+      <input type="button" id="js03ID" value="Click to see me in action" />
+    </code>
+    <div id="foggybottom" class="city">Foggy Bottom</div>
+  </section>
+    
+  <!--3 Using pure JS selectors querySelector() withnfunction / variables -->
+  <section class="js-queryselector-pretty">
+    <div class="description">3- This codeblock maintains the function variable and setup from 3 but uses <a class="code" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector">querySelector</a> instead of <span class="code">getElementById</span> for selecting the IDs. Also note that you need to add <span class="code">#</span> when you pass the ID declarations into the function (because <span class="code">querySelector</span> can also find classes as well as IDs!)
+    <code class="example-code">
+      <span class="code-line">function mountvernon ( ButtonID, SelectorID ) {</span>
+      <span class="code-line code-indent-1x">var mountvernonButton = document.<span class="green">querySelector(ButtonID)</span>;</span>
+      <span class="code-line code-indent-1x">var mountvernonSelector = document.<span class="green">querySelector(SelectorID)</span>;</span>
+      <span class="code-line code-indent-1x">mountvernonButton.addEventListener("click", function(){</span>
+      <span class="code-line code-indent-2x">mountvernonSelector.classList.toggle("red");</span>
+      <span class="code-line code-indent-1x">});</span>
+      <span class="code-line">}</span>
+      <span class="code-line">mountvernon( "#js04ID" , "#mountvernon" );</span>
+      <input type="button" id="js04ID" value="Click to see me in action" />
+    </code>
+    <div id="mountvernon" class="city">Mount Vernon</div>
+  </section>  
+
+  
+  <script  src="./script.js"></script>
+
+</body>
+</html>

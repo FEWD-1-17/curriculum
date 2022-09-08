@@ -1,0 +1,26 @@
+
+@import "custom/_variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Custom SCSS for feature component with Bootstrap icon
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+
+}
+
+.hero {
+    h1 {
+        color: yellow;
+    }
+
+    .btn {
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,249 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+:root {
+  --airbnb-pink: #ff5358;
+  --background-light-gray: #efefef;
+  --border-light-gray: #dbdbdb;
+  --dark-red: #e00007;
+  --dark-gray: #0e0f0f;
+  --white: #FFFFFF;
+}
+
+/* REUSABLE STYLES */
+.airbnb-container {
+  padding: 50px 5px;
+}
+
+/*
+ * Check out how the transition property and the :hover pseudo class work together
+ * You get a nice smooth fade-in color switch when hovering over the element
+ */
+.airbnb-button {
+  background-color: var(--airbnb-pink);
+  border-bottom: 2px solid var(--dark-red);
+  border-radius: 3px;
+  color: var(--white);
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px auto;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  width: 250px;
+  padding: 15px 0;
+}
+
+.airbnb-button:hover {
+  background-color: var(--dark-red);
+}
+
+
+
+
+/* HEADER */
+.airbnb-header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.airbnb-logo-container {
+  width: 150px;
+}
+
+.airbnb-nav {
+  width: 350px;
+}
+
+.airbnb-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+.airbnb-logo {
+  padding: 10px 30px;
+  width: 100px;
+}
+
+.airbnb-nav-element {
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+/*
+ * Check out the use of this pseudo class to get my spacing just right
+ * This works because in my HTML, there are two .airbnb-nav-element divs right next to each other
+ */
+.airbnb-nav-element:last-child {
+  padding-left: 0;
+}
+
+/* HERO */
+.airbnb-main-photo {
+  align-items: center;
+  background-image: url('./melbourne.jpg');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+
+.airbnb-intro-content {
+  color: var(--white);
+  text-align: center;
+  width: 400px;
+}
+
+.airbnb-intro-title {
+  font-size: 64px;
+}
+
+.airbnb-intro-subtitle {
+  font-size: 16px;
+}
+
+/* Middle part of page */
+
+/**
+ * Notice I'm listing the flex-direction: column; BEFORE the media query
+ * This is a mobile-first responsive style
+ * You declare as many of the property:value pairs as you need
+ * Then you reset the ones you need to modify per screen
+ * In our case we want to flip between a single column on mobile, row of items on desktop
+ * This is a super familiar pattern in CSS, very common and easy with flexbox
+ */
+.airbnb-middle {
+  align-items: center;
+  background-color: var(--background-light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 550px) {
+  .airbnb-middle {
+    flex-direction: row;
+  }
+}
+
+.airbnb-middle-box {
+  border: 1px solid var(--border-light-gray);
+  width: 96%;
+}
+
+@media (min-width: 550px) {
+  .airbnb-middle-box {
+    width: 48%;
+  }
+}
+
+.airbnb-middle-content-container {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 75px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.airbnb-middle-icon {
+  padding-right: 12px;
+}
+
+.airbnb-middle-titles {
+  background-color: var(--background-light-gray);
+  font-size: 14px;
+  padding: 12px 18px;
+}
+
+.airbnb-middle-content {
+  line-height: 1.4;
+  padding-right: 12px;
+}
+
+/* NEIGHBORHOODS */
+.airbnb-neighborhood-container {
+  padding: 50px 5px;
+}
+
+.airbnb-neighborhood-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.airbnb-neighborhood-subtitle {
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.airbnb-three-neighborhood-container {
+  justify-content: center;
+  display: flex;
+}
+
+.airbnb-indiv-neighborhood-container {
+  margin: 1%;
+  width: 30%;
+}
+
+/* Note that here we are doing nested flex boxes */
+.airbnb-indiv-neighborhood-header {
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 300px; /* approximate estimate */
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* I added specific classes for the custom background images for each section */
+.fitzroy  { background-image: url('./fitzroy.jpg'); }
+.st-kilda { background-image: url('./st-kilda.jpg'); }
+.cbd      { background-image: url('./central-business-district.jpg');}
+
+
+.airbnb-indiv-neighborhood-title {
+  font-size: 24px;
+}
+
+.airbnb-indiv-neighborhood-details {
+  background-color: var(--background-light-gray);
+  border: 1px solid var(--border-light-gray);
+  line-height: 1.4;
+  margin: 0;
+  min-height: 50px; /* makes the detail boxes look uniform */
+  padding: 20px;
+}
+
+.airbnb-footer {
+  align-items: center;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+}
+
+/* Styling horizontal rules requires you give it some height */
+hr {
+  border: 1px solid rgba(255,255,255,0.2);
+  margin-bottom: 40px;
+  width: 95%;
+}

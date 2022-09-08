@@ -1,0 +1,69 @@
+/*
+
+Font Notes:
+font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+
+Color Notes:
+Sand: CCB87C
+Dark Sand: 332A10
+Putty: E0CA88
+BlueButton: 2B3775
+Hover: 475CC4
+Feature: 22495E
+Near-Black: 0F0D05
+
+
+ */
+
+
+
+
+/* Two Column Layout for Posts */
+
+.pbeLayoutColumn {
+    max-width: 1170px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding-top: 1rem;
+}
+
+.pbeLayoutColumn .pbeLayoutColumnTwin {
+    
+}
+
+.pbeLayoutColumn .pbeLayoutColumnSingle {
+    grid-column:span 2;
+}
+
+@media (max-width:1190px) {
+    .pbeLayoutColumn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+
+/* Sidebar Gallery Articles */
+
+
+    /* Footer */
+
+.pbeFooter {
+    border-top: 10px solid #22495E;
+    background: #0F0D05;
+    color: white;
+    overflow: hidden;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.pbeFooter h1 {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}

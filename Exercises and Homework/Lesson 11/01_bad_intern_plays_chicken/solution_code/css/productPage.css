@@ -1,0 +1,216 @@
+/* Sections */
+
+@media (max-width:1024px) {
+    #pbeProduct {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    #pbeProduct > * {
+        width:100%;
+    }
+    #pbeProductPageTitle {
+        order:1;
+    }
+    #pbeProductDesc {
+        order:3;
+    }
+    #pbeProductPagePurchase {
+        order:2;
+    }
+    #pbeProductPageUpsell {
+        order:4;
+    }
+}
+
+/* Notices */
+
+.pbeNotice {
+    color: #22495E;
+    margin: 2rem auto;
+    width: 80%;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    font-style:italic;
+}
+
+/* Description Accordion */
+
+.pbeDescAccordion > section {
+    margin-top: 2rem;
+}
+
+.pbeDescAccordion > section:first-child {
+    margin-top: 0;
+}
+
+.pbeDescAccordion section > header {
+    display:flex;
+}
+
+
+.pbeDescAccordion section > header .pbeDescToggle {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-decoration:none;
+    color:#332A10;
+    margin-right:2rem;
+    margin-left: 0.5rem;
+}
+.pbeDescAccordion section > header {
+    cursor:pointer;
+}
+
+.pbeDescAccordion section > header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.pbeDescAccordion .descClose {
+    display:none;
+}
+
+.pbeDescAccordionCollapsed .pbeDescContent {
+    display:none;
+}
+
+.pbeDescAccordionCollapsed .descOpen {
+    display:none;
+}
+
+.pbeDescAccordionCollapsed .descClose {
+    display:block;
+}
+
+
+/* Chicken Info */
+
+.pdeChickenDataPortrait {
+    max-width:100%;
+    box-sizing:border-box;
+    padding: 1rem;
+    border: 1px solid rgb(220,220,220);
+}
+
+.pdeChickenDataPricingTable {
+    width:100%;
+    margin: 1rem 0;
+    text-align: center;
+    border: 1px solid #332A10;
+}
+
+.pdeChickenDataPricingTable caption {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pdeChickenDataPricingTable thead {
+    background-color: #332A10;
+    color:white;
+}
+
+.pdeChickenDataPricingTable td,
+.pdeChickenDataPricingTable th {
+    padding: 10px;
+}
+
+/* Purchase Form */
+
+.pbePurchaseForm {
+    display:flex;
+    gap: 10px;
+    margin: 3rem 0;
+}
+
+.pbePurchaseForm label {
+    font-size: 1.6rem;
+}
+
+.pbePurchaseForm input[type=text] {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    padding:0;
+    max-width: 40%;
+}
+
+.pbePurchaseForm input[type=submit] {
+    background: #22495E;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    display:block;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .pbePurchaseForm {
+        flex-wrap:wrap;
+    }
+    .pbePurchaseForm label {
+        width:100%;
+    }
+}
+
+/* Cross Sell List */
+
+.pbeCrossSell {
+    list-style:none;
+    margin:1rem 0 0 0;
+    padding:0;
+    display: grid;
+    gap:20px;
+    width:100%;
+    overflow:hidden;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ 
+.pbeCrossSell > li {
+    display:block;
+}
+
+
+@media (max-width:768px) {
+    .pbeCrossSell > li {
+        grid-column:span 2;
+    }
+}
+
+/* Chicken Breed Block */
+
+.pbeChickenBreedBlock {
+    width:100%;
+    display:block;
+    box-sizing:content-box;
+}
+
+.pbeChickenBreedBlock * {
+    box-sizing:content-box;
+}
+
+.pbeChickenBreedBlock > a {
+    display:block;
+    border: 1px solid #332A10;
+    padding:0;
+    margin:0;
+}
+
+.pbeChickenBreedBlock img {
+    max-width: 100%;
+    display:block;
+    margin:0;
+}
+
+.pbeChickenBreedBlock h1 {
+    font-size: 1.1rem;
+}
+
+.pbeChickenBreedBlock h1 > a {
+    text-decoration:none;
+    color:#332A10;
+}

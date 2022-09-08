@@ -1,0 +1,210 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #fff;
+  float: left;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+header {
+  background: #033048;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header nav ul {
+	margin: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+header nav ul li a {
+  color: #f9e42e;
+}
+
+
+
+/* --------------------------------
+
+Layout
+
+-------------------------------- */
+
+.relaxrFormHeader {
+  position: relative;
+  width:960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.relaxrFormHeader .logoHaus {}
+
+.relaxrFormHeader .navHaus {}
+
+.relaxrFormTwinCol {
+  position: relative;
+  width:960px;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+.relaxrFormTwinCol_body {
+  width: 66%;
+  float:left;
+}
+
+.relaxrFormTwinCol_sidebar {
+  width:33%;
+  float:right;
+}
+
+
+
+/* -------------------------------- 
+
+Form
+
+-------------------------------- */
+
+fieldset {
+	border: 0;
+	margin: 24px 0;
+}
+
+legend {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+form div {
+  margin: 20px 0;
+}
+
+label {
+	display: block;
+	color: #94aab0;
+	margin-bottom: 10px;
+}
+
+input,
+textarea,
+select,
+label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #2b3e51;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+legend {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  padding: 12px;
+  border: 1px solid #cfd9db;
+  background-color: #ffffff;
+  border-radius: .25em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #2c97de;
+}
+
+textarea {
+  min-height: 200px;
+  resize: vertical;
+  overflow: auto;
+}
+
+input[type="submit"] {
+  border: none;
+  background: #2c97de;
+  border-radius: .25em;
+  padding: 16px 50px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #42a2e1;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+  background: #2b3e51;
+}
+
+input[type="submit"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* -------------------------------- 
+
+Custom icons
+
+-------------------------------- */
+
+input,
+select,
+textarea {
+  padding-left: 54px !important;
+}
+
+.cd-form .user {
+  background: url("../img/cd-icon-user.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+}
+.company {
+  background: url("../img/cd-icon-company.svg") no-repeat 16px center;
+}
+.company {
+  background: url("../img/cd-icon-company.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+.email {
+  background: url("../img/cd-icon-email.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+.message {
+  background: url("../img/cd-icon-message.svg") no-repeat 16px 16px;
+}

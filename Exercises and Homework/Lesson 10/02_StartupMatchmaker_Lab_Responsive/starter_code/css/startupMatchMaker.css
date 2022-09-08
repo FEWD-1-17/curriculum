@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #aaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+.site_header {
+    background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-bottom-width: 2px;
+    padding: 20px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    color: yellow;
+}
+
+.logo a {
+    color: yellow;
+}
+
+.navigation {
+    width: 750px;
+}
+
+.horizontal-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.horizontal-nav li{
+    display: inline-block;
+}
+
+.main-nav {
+    font-size: 22px;
+    color: white;
+}
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: white;
+}
+
+.main-nav strong {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Oswald';
+}
+
+/* contentContainer */
+
+.contentContainer {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contentContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* BODY LAYOUT */
+
+.main_content {
+    background: white;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+.introContent {
+    padding:30px 10px;
+}
+
+.introContent h1 {
+    font-size: 30px;
+
+}
+
+
+/* responsiveTileGroup */
+
+.responsiveTileGroup {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display:block;
+}
+
+.responsiveTileGroupItem {
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+
+
+.copyright {
+    font-family: 'Merriweather', serif;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}

@@ -1,0 +1,19 @@
+*{
+  margin: 0
+}
+
+.container {
+  align-items: center;
+  background-image: linear-gradient(to right, #654ea3, #eaafc8);
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 52px;
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+p {
+  font-size: 24px;
+}

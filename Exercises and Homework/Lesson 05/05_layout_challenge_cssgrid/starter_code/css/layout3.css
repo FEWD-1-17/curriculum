@@ -1,0 +1,31 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMainFeatures {
+
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+
+}
+
+.exerciseAdditionalFeatures {
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+
+}

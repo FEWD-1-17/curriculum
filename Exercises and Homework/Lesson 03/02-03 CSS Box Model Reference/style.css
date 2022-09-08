@@ -1,0 +1,114 @@
+/* Font properties */
+.sample-font-family {
+  font-family: "Custom font name", Arial, sans-serif;
+}
+
+.sample-font-size {
+  font-size: 30px;
+}
+
+.sample-font-style {
+  font-style: italic;
+}
+
+.sample-font-weight {
+  font-weight: bold;
+}
+
+/* This can be a value (where 1 is baseline) or a percentage (where 100% is baseline) */
+.sample-line-height {
+  line-height: 1.4;
+}
+
+.sample-font {
+  font: italic bold 30px/1.4 Arial;
+}
+
+/* Text Properties */
+.sample-text-align {
+  text-align: center;
+}
+
+.sample-text-decoration {
+  text-decoration: underline;
+}
+
+.sample-text-transform {
+  text-transform: capitalize;
+}
+
+/* Margin, Padding, Border */
+.sample-01 {
+  background-color: rgba(97, 255, 213, 1);
+  height: 200px;
+  margin: 25px; /* 25px declared once gets applied to all sides */
+  width: 200px;
+}
+
+.sample-02 {
+  background-color: rgba(97, 255, 213, 1);
+  height: 200px;
+  margin: 25px auto; /* 1st value applies to top and bottom, 2nd value applies to left and right */
+  width: 200px;
+}
+
+.sample-03 {
+  background-color: rgba(97, 255, 213, 1);
+  height: 200px;
+  margin: auto;
+  width: 200px;
+}
+
+.sample-11 {
+  background-color: rgba(97, 255, 213, 1);
+  height: 200px;
+  padding: 50px;
+  width: 200px;
+}
+
+.sample-12 {
+  background-color: rgba(97, 255, 213, 1);
+  border-left: 5px solid #222;
+  height: 200px;
+  padding: 50px;
+  width: 200px;
+}
+
+.sample-13 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+}
+
+.sample-14 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+  overflow:visible;
+}
+
+.sample-15 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  overflow: scroll;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+}
+
+.sample-16 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  overflow: hidden;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+}

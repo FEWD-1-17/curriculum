@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Pet Information</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="petsHeader">
+    <div class="petsHeaderInner">
+        <p class="miniBrand">General Assembly</p>
+        <h1>Pet Finder</h1>
+    </div>
+</header>
+<section class="petsOuterContainer">
+    <h1>Pet Information & Finder</h1>
+    <form>
+        <label for="petType">Pet Type</label>
+        <select id="petType">
+            <option value="dog" selected>Dog</option>
+            <option value="guineapig">Guinea Pig</option>
+            <option value="horse">Horse</option>
+        </select>
+    </form>
+
+    <main class="petInfoMain">
+        <h1 class="petDisplayName">Dog</h1>
+
+        <div class="petsData">
+
+            <dl class="petsDataSpecs">
+                <dt>Size</dt>
+                <dd>Medium (10-140lbs)</dd>
+                <dt>Foods</dt>
+                <dd>
+                    <ul>
+                        <li>Commercial Dog Food</li>
+                        <li>Commercial Dog Treats</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div><!-- end petsData -->
+
+        <div class="petsGallery">
+            <div class="photoHaus">
+                <img class="photoLarge" alt="" src="img/animals/dog/Ulfur.jpg"/>
+            </div>
+            <div class="thumbHaus">
+                <a href="img/animals/dog/Ulfur.jpg"><img class="photoThumb" alt="" src="img/animals/dog/Ulfur.jpg"/></a>
+                <a href="img/animals/dog/Ulfur.jpg"><img class="photoThumb" alt="" src="img/animals/dog/Ulfur.jpg"/></a>
+                <a href="img/animals/dog/Ulfur.jpg"><img class="photoThumb" alt="" src="img/animals/dog/Ulfur.jpg"/></a>
+                <a href="img/animals/dog/Ulfur.jpg"><img class="photoThumb" alt="" src="img/animals/dog/Ulfur.jpg"/></a>
+            </div>
+        </div>
+
+        <div class="petsMoreData">
+
+            <h2>Ideal For:</h2>
+            <ul class="idealFor">
+                <li>Datapoint Unum</li>
+                <li>Datapoint Lorem Ipsum</li>
+                <li>Datapoint Unum</li>
+                <li>Datapoint Morhpo</li>
+                <li>Datapoint Unum</li>
+                <li>Datapoint Unum</li>
+
+            </ul>
+
+            <h2>Adoption Groups</h2>
+            <ul class="adoptionGroups">
+                <li><a href="" target="_top">Petfinder</a></li>
+                <li><a href="">Humane Society</a></li>
+            </ul>
+
+        </div>
+    </main>
+
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/exercise.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 10px;
+  background: #41424c;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+main {
+  background-color: #c5c6d0;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 1rem;
+  font-size: 1rem;
+  min-height: 30vh;
+  margin: 0 auto;
+  max-width: 80vw;
+  padding: 2rem 0;
+}
+
+h2,
+form {
+  margin: 0;
+  padding: 2rem 3rem 0 3rem;
+  text-align: center;
+}
+
+ul li {
+  padding-top: 0.5rem;
+}
+
+.weather-results-container {
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#weather-results {
+  list-style: none;
+  margin: 1rem;
+}

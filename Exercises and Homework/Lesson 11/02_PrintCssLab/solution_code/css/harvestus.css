@@ -1,0 +1,220 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:black;
+    color:#FFEF8D;
+}
+
+.pcl_contentOuter {
+    width:1170px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.pcl_siteHeader {
+    background:#052109;
+    color:white;
+    padding-top:1rem;
+}
+
+.pcl_siteHeader .pcl_contentOuter {
+    display:flex;
+    justify-content:space-between;
+}
+
+.pcl_logoRow {
+    display:flex;
+}
+
+.pcl_logoHaus {
+    width:100px;
+    overflow:hidden;
+    margin-right:30px;
+}
+
+.pcl_logoHaus img {
+    max-width:100%;
+}
+
+.pcl_siteHeader .pcl_topnav ul {
+    list-style-type:none;
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.pcl_siteHeader .pcl_topnav ul li {
+    padding:0;
+    margin:0;
+}
+
+.pcl_siteHeader .pcl_topnav a,
+.pcl_siteHeader .pcl_topnav a:visited {
+    text-decoration:none;
+    color:white;
+    font-size:1.2rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    display:block;
+    padding:0.4rem;
+    color:#FFDF9F;
+
+}
+
+.pcl_siteHeader .pcl_topnav a:hover {
+    color:white;
+}
+
+
+.pcl_productbar {
+    padding-bottom:2rem;
+    padding-top:1rem;
+    background:#021604;
+}
+
+.pcl_productbar h1 {
+    font-size:1.2rem;
+    text-transform:uppercase;
+}
+
+.pcl_productbar_set {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.pcl_productbar_set a {
+    max-width:18%;
+    overflow:hidden;
+    display:block;
+}
+
+.pcl_productbar_set a img {
+    width:100%;
+    height:auto;
+    border:1px solid white;
+
+}
+
+.pcl_footer {
+    background:#052109;
+    color:white;
+}
+
+.pcl_footer > div > nav {
+    display:flex;
+}
+
+.pcl_footer .pcl_navBlock {
+    flex:1;
+    justify-content:space-between;
+}
+
+.pcl_navBlock ul {
+    margin:0;
+    padding:0;
+}
+
+.pcl_navBlock p {
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.pcl_navBlock a {
+    color:#FFDF9F;
+    text-decoration:none;
+    display:block;
+    padding:0.2rem 0;
+}
+
+.pcl_main {
+    background: white;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom:4rem;
+}
+
+.pcl_main header {
+
+}
+
+.pcl_invoice table {
+    width:100%;
+}
+
+.pcl_invoice table td,
+.pcl_invoice table th {
+    padding:0.6rem 1rem;
+}
+
+.pcl_invoice table tr {
+    background:#FFDF9F;
+}
+
+.pcl_invoice table thead,
+.pcl_invoice table thead th
+{
+    background: #423307;
+    color:white;
+}
+
+.pcl_invoice table tr:nth-child(2n) {
+    background: #FFF3CF;
+}
+
+.pcl_invoice_items tr >* {
+    text-align:right;
+}
+
+.pcl_invoice_items tr > *:nth-child(1) {
+    text-align:center;
+}
+
+.pcl_invoice_items tr > *:nth-child(2) {
+    text-align:left;
+}
+
+.pcl_invoice_total tr td {
+    text-align:right;
+    font-weight:bold;
+}
+
+.pcl_invoice_total tr td:nth-child(1) {
+    width:75%;
+}
+
+
+
+@media print {
+
+    /* Hide Navigation */
+    .pcl_topnav {
+        display:none;
+    }
+
+    .pcl_footer .pcl_navBlock {
+        display:none;
+    }
+
+    /* Hide Upsells */
+    .pcl_productbar {
+        display:none;
+    }
+
+    /* Set widths */
+    .pcl_contentOuter {
+        width:7in;
+    }
+
+    /* Add borders to the table */
+    .pcl_invoice_total {
+        border-top: 2px solid black;
+    }
+
+    .pcl_invoice_items tbody tr td {
+        border-bottom: 1px solid rgb(60,60,60);
+    }
+}
+

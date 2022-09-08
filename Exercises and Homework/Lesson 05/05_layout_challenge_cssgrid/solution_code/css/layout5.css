@@ -1,0 +1,72 @@
+
+.exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader {
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 320px auto;
+}
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+    min-width: 200px;
+    margin-right:100px;
+    margin-bottom: 10px;
+}
+
+.exerciseHeaderNav {
+
+}
+
+.exerciseHeaderNav ul {
+    list-style-type:none;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap:10px;
+    margin: 0;
+    padding: 0;
+}
+
+.exerciseHeaderNav ul li {
+    min-width: 150px;
+
+}
+
+
+/* Main */
+
+.exerciseMain {
+    display:grid;
+    grid-template-columns: 25% 75%;
+    gap:10px;
+}
+
+.exerciseMainLeftNav {
+
+}
+
+.exerciseMainContent {
+    overflow:hidden;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    gap:10px;
+    margin-right:10px;
+}
+
+
+.exerciseMainContentBanner {
+    grid-column:span 4;
+}
+
+.exerciseMainContentSubBanner {
+    grid-column:span 3;
+
+}
+
+.exerciseMainContentBlock {
+
+}

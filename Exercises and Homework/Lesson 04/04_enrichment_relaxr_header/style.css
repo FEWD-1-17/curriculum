@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+p {
+  font-size: 24px;
+   margin: 10px 5px;
+}
+
+.wrapper {
+  width: 900px;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 10px 20px;
+}
+
+h1 {
+  color: yellow;
+}
+
+/* nav {
+  width:500px;
+} */
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  color: white;
+}

@@ -1,0 +1,136 @@
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #043049;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #606161;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background: #f0efef;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.demoHeader {
+    position:relative;
+    background-color: rgb(10,35,15);
+    color: white;
+    border-bottom: 4px solid rgb(40,85,45);
+    overflow: hidden;
+    margin: 0;
+}
+
+.demoHeaderInner {
+    max-width:960px;
+    padding: 10px 15px 5px 15px;
+    margin: 0 auto;
+}
+
+.demoHeaderInner .miniBrand {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.demoHeaderInner h1 {
+    margin:0;
+    font-size: 36px;
+}
+
+
+
+
+/* playArea */
+
+.playArea {
+    display:flex;
+    margin: 10%;
+    max-width:960px;
+    margin: 60px auto;
+}
+
+.playAreaControls {
+    margin-right: 30px;
+    min-width: 300px;
+}
+
+.playAreaControls > form {
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.wordSet {
+    width: 40%;
+    box-sizing:border-box;
+    border: none;
+    padding:0;
+}
+
+.wordSet > input {
+    font-size: 18px;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.gameButton {
+    background: rgb(80,90,80);
+    padding: 5px 20px;
+    border-radius:5px;
+    color: white;
+    text-decoration:none;
+    display:inline-block;
+    text-transform:uppercase;
+}
+
+.gameButton:hover {
+    background: rgb(120,130,120);
+}
+
+.playDescription {
+    font-size: 14px;
+    padding: 20px 5px;
+}
+
+.playArea h1 {
+    margin: 0;
+}
+
+/* Play Results */
+.playAreaResults {
+    min-width: 400px;
+}
+
+.playAreaResults .playAreaResultsElement {
+    background: rgb(210,210,240);
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.playAreaResults h2 {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+.playAreaResultsLog {
+    background: rgb(210,210,240);
+    padding: 20px;
+}
+
+.playAreaResultsLog p {
+    font-family:courier;
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 14px;
+}

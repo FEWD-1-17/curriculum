@@ -1,0 +1,34 @@
+/* Just one way you could style things */
+
+.aa {
+  background-color: #292929;
+  padding: 30px;
+}
+
+.hp-news-category {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  line-height: 1;
+  color: #fff;
+}
+.hp-news-title {
+  font-size: 48px;
+  line-height: 1;
+  margin: 5px 0;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.hp-news-author, .hp-news-date  {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  line-height: .1;
+}
+
+img {
+  width: 100%;
+}

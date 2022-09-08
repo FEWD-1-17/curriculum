@@ -1,0 +1,16 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin: 30px;
+}
+
+#giphy-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}

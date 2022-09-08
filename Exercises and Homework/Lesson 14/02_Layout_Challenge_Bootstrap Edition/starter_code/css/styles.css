@@ -1,0 +1,7 @@
+.colorBox {
+  background: #d3d3d3;
+  min-height: 120px;
+  box-sizing: border-box;
+  margin: 1px;
+  border: 2px solid gray;
+}

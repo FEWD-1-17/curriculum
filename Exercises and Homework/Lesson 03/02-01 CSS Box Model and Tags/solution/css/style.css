@@ -1,0 +1,159 @@
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+/* Center the container */
+.outer-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.pageIntro {
+  background: #131e27;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.pageIntro .logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+/* Core Styles */
+.relaxr-corestyles p {
+  font-size: 26px;
+}
+
+.relaxr-corestyles p.featuredText {
+  font-style:italic;
+  font-size: 30px;
+}
+.relaxr-corestyles strong {
+  font-weight:bold;
+}
+
+.relaxr-corestyles em {
+  font-style:italic;
+}
+
+.relaxr-corestyles p.featuredText em {
+  font-style: normal;
+}
+
+.relaxr-corestyles h1, .relaxr-corestyles h2, .relaxr-corestyles h3, .relaxr-corestyles h4, .relaxr-corestyles h5,.relaxr-corestyles h6 {
+  color: #033048;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.relaxr-corestyles h1 {
+  font-size: 40px;
+}
+
+.relaxr-corestyles h2 {
+  font-size: 32px;
+}
+
+.relaxr-corestyles h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles ul, .relaxr-corestyles ol {
+  margin: 30px 0 30px 80px;
+}
+
+.relaxr-corestyles ul ul, .relaxr-corestyles ol ol {
+  margin: 12px 0 12px 40px;
+}
+
+.relaxr-corestyles li {
+  margin-bottom: 8px;
+}
+
+.relaxr-corestyles ul {
+  list-style: disc;
+}
+
+.relaxr-corestyles > ol > li > ol {
+  list-style: upper-roman;
+}
+
+.relaxr-corestyles ol {
+  list-style: decimal;
+}
+
+
+.relaxr-corestyles .contentImage {
+  max-width: 474px;
+  border: 3px solid #131e27;
+}
+
+.featureBox {
+  background: #f9e42e;
+  max-width: 440px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.featureBox > h1 {
+  font-size: 30px;
+  text-transform:uppercase;
+}
+
+.featureBox strong {
+  background: #eaeaea;
+  border: 1px solid #aaa;
+  padding: 4px;
+  font-weight: normal;
+  color: black;
+}
+
+.featureBox > *:first-child {
+  margin-top: 0;
+}
+
+.featureBox ul, .featureBox ol {
+  margin-left: 30px;
+}
+
+/* Footer */
+.pageFooter {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.pageFooter p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+

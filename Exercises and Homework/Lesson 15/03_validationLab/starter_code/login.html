@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+    <title>Relaxr Landing Page</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse header_outer">
+    <div class="container">
+        <div class="navbar-header">
+            <a  href="#">
+                <h1  class="logo navbar-brand">Relaxr</h1>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right relaxrHeadNav" >
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="relaxrBody" class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <h1>Sign In</h1>
+    <div id="errorMessages">
+
+    </div>
+    <!-- Nav tabs -->
+    <ul id="relaxrExistingUser" class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="nav-item "><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="nav-link active show">Existing Users</a></li>
+        <li role="presentation" class="nav-item"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="nav-link">New Users</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+            <form class="relaxrLoginForm form-horizontal">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div role="tabpanel" class="tab-pane" id="profile">
+            <form class="relaxrLoginForm form-horizontal">
+                <div class="form-group row">
+                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputFName" class="col-sm-2 control-label">First Name</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputFName" placeholder="First Name">
+                    </div>
+                    <label for="inputLName" class="col-sm-2 control-label">Last Name</label>
+
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputLName" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword5" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-4">
+                        <input type="password" class="form-control" id="inputPassword5" placeholder="Password">
+                    </div>
+                    <label for="inputPassword4" class="col-sm-2 control-label">Confirm</label>
+
+                    <div class="col-sm-4">
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 control-label">User Type</label>
+                    <div class="col-sm-10">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> Employer
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> Talent
+                        </label>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-lg btn-primary">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+
+<aside id="bottom-cta">
+    <a class="btn btn-primary btn-lg" href="#">Sign Up Now!</a>
+</aside>
+<footer>
+    <h4 class="logo">Relaxr</h4>
+
+    <ul>
+        <li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+        <li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+    </ul>
+
+    <p class="copyright">Copyright 2015. Relaxr.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="relaxr.js"></script>
+</body>
+</html>

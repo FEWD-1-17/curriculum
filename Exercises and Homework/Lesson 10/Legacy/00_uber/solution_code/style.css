@@ -1,0 +1,75 @@
+/* Keeps subheadings honest ;) */
+h3 {
+  margin: 0;
+}
+
+/* Main container - phone (mobile first!) */
+.uber-container-3-items {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+/* Main container - tablets */
+@media (min-width: 546px) and (max-width: 768px) {
+  .uber-container-3-items {
+    /* no new styles needed */
+  }
+}
+
+/* Main container - desktops */
+@media (min-width: 769px) {
+  .uber-container-3-items {
+    flex-direction: row;
+  }
+}
+
+/* Individual item container - this keeps all our SVG, heading and para content together */
+.uber-indiv-item {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 546px) and (max-width: 768px) {
+  .uber-indiv-item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 769px) {
+  .uber-indiv-item {
+    flex-direction: column;
+    min-height: 390px; /* makes the cards a uniform height */
+  }
+}
+
+/*
+ * Uncomment these nth-child sections if you want to see the containers
+ *
+.uber-indiv-item:nth-child(1) {
+  background-color: limegreen;
+}
+
+.uber-indiv-item:nth-child(2) {
+  background-color: orange;
+}
+
+.uber-indiv-item:nth-child(3) {
+  background-color: purple;
+  color: white;
+}
+*/
+
+.uber-indiv-text-container {
+  padding: 20px;
+}
+
+/* This keeps the SVGs a static size, which matches what UBER does */
+.uber-indiv-image-container svg {
+  height: 120px;
+  padding: 20px;
+  width: 120px;
+}

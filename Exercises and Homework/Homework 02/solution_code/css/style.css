@@ -1,0 +1,201 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+
+/* Why is this display: block; not redundant? */
+.cta {
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 24px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ############################## */
+/* ########### Header ########### */
+/* ############################## */
+.site_header {
+  background-color: #000;
+  border-bottom: 5px solid #f2ff00;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site_header h1 {
+  font-size: 32px;
+/*   padding: 15px 05px 0; */
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+}
+
+.site_header h1,
+.site_header h1 a,
+.site_header h1 a:visited {
+  color: #f2ff00;
+  text-decoration:none;
+}
+
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  padding: 15px 0;
+  font-family: 'Lato', sans-serif;
+  margin:0;
+}
+
+/* How come there is no float here? */
+.main-nav li {
+
+  padding-left: 15px;
+}
+
+.main-nav li,
+.main-nav li a,
+.main-nav li a:visited {
+  color: #fff;
+  text-decoration:none;
+}
+
+.main-nav li a:hover {
+  color: #f2ff00;
+}
+
+
+.main-nav-item-featured {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ###################################### */
+/* ########### Second section ########### */
+/* ###################################### */
+
+/* You don't need any layout here ;) Why? 
+ * Because it's just a block, going full width... */
+.secondary-text {
+  background-color: #adadad;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.secondary-text p {
+  font-size: 28px;
+  margin: 0;
+}
+
+.strikeout {
+  text-decoration: line-through;
+}
+
+.underline {
+  border-bottom: 3px solid #f2ff00;
+}
+
+/* #################################### */
+/* ########### Hero section ########### */
+/* #################################### */
+
+/* What's going on with the background-size? How is it working? */
+.hero-area {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 60%;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero-area h2 {
+  font-weight: bold;
+}
+
+/* Why did I put margin and padding on this element? */
+.inset-div {
+  background-color: rgba(255,255,255,0.9);
+  margin: 25px 25px 25px 0;
+  padding: 25px;
+  width: 380px;
+  height: 230px;
+  padding: 4%;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.main-cta {
+  background-color: #f2ff00;
+  border-bottom: 2px solid #ffd900;
+}
+
+.featured-block {
+
+}
+
+.featured-block h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+
+}
+
+.featured-block .cta {
+  background-color: #adadad;
+  border-bottom: 2px solid #878787;
+}
+
+/* ########################################## */
+/* ########### Three-wide section ########### */
+/* ########################################## */
+
+/* Notice there is no align-items here - why? */
+/* The items are default align-items: flex-start (top), so we don't need it */
+.three-wide {
+  display: flex;
+  justify-content: center;
+}
+
+.third-container {
+  border-right: 1px solid lightgray;
+  margin: 10px 0;
+  padding: 2%;
+}
+
+
+.third-container:last-child {
+  border-right: none;
+}
+
+
+
+/* ############################## */
+/* ########### Footer ########### */
+/* ############################## */
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+}

@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #aaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* contentContainer */
+
+.contentContainer {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+/* HEADER */
+
+.site_header {
+    background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-bottom-width: 2px;
+    padding: 20px;
+}
+
+.site_header .contentContainer {
+    display: flex;
+    justify-content:space-between;
+    overflow:hidden;
+    flex-wrap:wrap;
+
+}
+
+.logo {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    color: yellow;
+}
+
+.logo a {
+    color: yellow;
+}
+
+.main-nav {
+    font-size: 22px;
+    color: white;
+    overflow:hidden;
+}
+
+.main-nav ul {
+    display:flex;
+    overflow:hidden;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: white;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: yellow;
+}
+
+.nav-toggle {
+    color:white;
+    font-size: 32px;
+    display:none;
+}
+
+
+
+// Create a media query that only applies when the screen is between 640px and 800px
+
+
+// Create a media query that only applies when the screen is LESS than 640px
+
+
+/* BODY LAYOUT */
+
+.main_content {
+    background: white;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+.introContent {
+    padding:30px 10px;
+}
+
+.introContent h1 {
+    font-size: 30px;
+
+}
+
+
+/* responsiveTileGroup */
+
+.responsiveTileGroup {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display:block;
+}
+
+.responsiveTileGroupItem {
+    padding: 10px;
+    width: 480px;
+    float: left;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+    .responsiveTileGroup {
+        display:block;
+    }
+    .responsiveTileGroupItem{
+        width: 100%;
+    }
+}
+
+
+.copyright {
+    font-family: 'Merriweather', serif;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}

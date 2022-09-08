@@ -1,0 +1,289 @@
+/*
+Project Name: Troubleshooting Exercise
+Client: Your Client
+Author: Your Name
+Developer @GA in DC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* Global */
+body {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+  background: rgb(245,238,230);
+}
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* Columns
+/*******************************************/
+
+
+.outer-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.primaryArticle {
+  width: 640px;
+  float: left;
+  overflow:hidden;
+}
+
+.otherArticles {
+  width: 300px;
+  float: right;
+  background: rgb(230,230,230);
+  border: 1px solid rgb(155,155,155);
+  overflow:hidden;
+
+}
+
+
+/******************************************
+/* Core Styles
+/*******************************************/
+
+
+.oldTimeNewsPaper-corestyles p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.oldTimeNewsPaper-corestyles blockquote {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  padding-left: 30px;
+  border-left: 8px solid black;
+}
+
+.oldTimeNewsPaper-corestyles p.featuredText {
+  font-style:italic;
+  font-size: 26px;
+}
+.oldTimeNewsPaper-corestyles strong {
+  font-weight:bold;
+}
+
+.oldTimeNewsPaper-corestyles em {
+  font-style:italic;
+}
+
+.oldTimeNewsPaper-corestyles p.featuredText em {
+  font-style: normal;
+}
+
+.oldTimeNewsPaper-corestyles h1, .oldTimeNewsPaper-corestyles h2, .oldTimeNewsPaper-corestyles h3, .oldTimeNewsPaper-corestyles h4, .oldTimeNewsPaper-corestyles h5,.oldTimeNewsPaper-corestyles h6 {
+  color: #033048;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.oldTimeNewsPaper-corestyles h1 {
+  font-size: 30px;
+}
+
+.oldTimeNewsPaper-corestyles h2 {
+  font-size: 26px;
+}
+
+.oldTimeNewsPaper-corestyles h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.oldTimeNewsPaper-corestyles h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.oldTimeNewsPaper-corestyles h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.oldTimeNewsPaper-corestyles h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.oldTimeNewsPaper-corestyles ul, .oldTimeNewsPaper-corestyles ol {
+  margin: 30px 0 30px 80px;
+}
+
+.oldTimeNewsPaper-corestyles ul ul, .oldTimeNewsPaper-corestyles ol ol {
+  margin: 12px 0 12px 40px;
+}
+
+.oldTimeNewsPaper-corestyles li {
+  margin-bottom: 8px;
+}
+
+.oldTimeNewsPaper-corestyles ul {
+  list-style: disc;
+}
+
+.oldTimeNewsPaper-corestyles > ol > li > ol {
+  list-style: upper-roman;
+}
+
+.oldTimeNewsPaper-corestyles ol {
+  list-style: decimal;
+}
+
+.oldTimeNewsPaper-corestyles *:first-child {
+  margin-top: 0;
+}
+
+.oldTimeNewsPaper-corestyles *:last-child {
+  margin-bottom: 0;
+}
+
+.oldTimeNewsPaper-corestyles-contentImage {
+  max-width: 100%;
+  border: 1px solid rgb(155,155,155);
+  margin: 16px auto 16px auto;
+  display:block;
+}
+
+.oldTimeNewsPaper-corestyles-dateline {
+  font-style:italic;
+  color: rgb(160,160,160);
+}
+/******************************************
+/* Page Header
+/*******************************************/
+
+
+.oldTimeNewsPaper-header {
+  background: #121212;
+  padding: 15px 0 15px;
+  margin-bottom: 20px;
+  clear:both;
+}
+
+.oldTimeNewsPaper-header * {
+  color: white;
+}
+
+.oldTimeNewsPaper-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.oldTimeNewsPaper-header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* Footer
+/*******************************************/
+
+.pageFooter {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+  margin-top: 24px;
+  clear:both;
+  display:block;
+}
+
+.pageFooter p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+/******************************************
+/* Primary Article
+/*******************************************/
+
+.primaryArticle > header {
+  background: rgb(235,228,222);
+  padding: 16px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.primaryArticle > header *:last-child {
+  margin-bottom: 0;
+}
+
+/******************************************
+/* Other Articles
+/*******************************************/
+
+.otherArticles > h1 {
+  margin: 0;
+  text-align: center;
+  color:white;
+  background: black;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 16px;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.otherArticlesContent {
+  padding: 0 16px 16px 16px;
+}
+
+.otherArticlesContent *:first-child {
+  margin-top: 0;
+  padding-top:0;
+}
+
+.otherArticlesContent h2 {
+  font-size: 18px;
+  font-weight:bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.otherArticlesContent p {
+  font-size: 16px;
+}
+
+.otherArticlesContent a {
+  color: rgb(50,120,180);
+}
+
+.otherArticlesContent a:hover {
+  color: rgb(80,150,220);
+}
+

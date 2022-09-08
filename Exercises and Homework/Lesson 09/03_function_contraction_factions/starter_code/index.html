@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Function Contraction Factions</title>
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+
+
+  <header class="demoHeader">
+      <div class="demoHeaderInner">
+          <p class="miniBrand">General Assembly</p>
+          <h1>Function Contraction Factions</h1>
+      </div>
+  </header>
+
+  <main class="playArea">
+      <section class="playAreaControls">
+          <h1>Enter Two Words</h1>
+
+          <form action="#" method="get" id="wordForm">
+              <fieldset class="wordSet">
+                  <label>First Word</label>
+                  <input type="text" id="firstWord">
+              </fieldset>
+              <fieldset class="wordSet">
+                  <label>Second Word</label>
+                  <input type="text" id="secondWord">
+              </fieldset>
+
+          </form>
+          <a href="#" class="gameButton" id="btnCheckConjunction">Check Conjunction</a>
+          <a href="#" class="gameButton" id="btnReset">Reset</a>
+
+          <p class="playDescription">Type two words and the system will determine if there's a contraction and what the contraction is.</p>
+      </section>
+      <section class="playAreaResults">
+          <h1>Results</h1>
+          <h2>Contraction</h2>
+          <p id='contractionResult' class="playAreaResultsElement"></p>
+
+
+          <h2>Log</h2>
+          <div class="playAreaResultsLog">
+          </div>
+      </section>
+  </main>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/conjunctionSearch.js"></script>
+  <script src="js/controls.js"></script>
+
+  </body>
+</html>

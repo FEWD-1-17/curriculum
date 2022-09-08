@@ -1,0 +1,61 @@
+
+.exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader {
+
+
+}
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+
+}
+
+.exerciseHeaderNav {
+
+}
+
+.exerciseHeaderNav ul {
+
+}
+
+.exerciseHeaderNav ul li {
+
+
+}
+
+
+/* Main */
+
+.exerciseMain {
+
+}
+
+.exerciseMainLeftNav {
+
+
+}
+
+.exerciseMainContent {
+
+
+}
+
+.exerciseMainContent > * {
+    margin: 0;
+}
+
+.exerciseMainContentBanner {
+
+}
+
+.exerciseMainContentSubBanner {
+
+}
+
+.exerciseMainContentBlock {
+
+}

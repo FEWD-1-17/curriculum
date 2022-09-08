@@ -1,0 +1,119 @@
+/* General Content Typography */
+
+.pbeGeneralContent {
+    font-family: 'Lora', serif;
+    line-height: 1.45;
+}
+
+
+.pbeGeneralContent h1,
+.pbeGeneralContent h2,
+.pbeGeneralContent h3,
+.pbeGeneralContent h4,
+.pbeGeneralContent h5,
+.pbeGeneralContent h6{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.pbeGeneralContent h1,
+.pbeGeneralContent h2,
+.pbeGeneralContent h3 {
+    color: #22495E;
+    text-transform: uppercase;
+}
+
+.pbeGeneralContent p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.pbeGeneralContent h1 {
+    font-size: 1.4rem;
+}
+
+.pbeGeneralContent h2 {
+    font-size: 1.1rem;
+}
+
+.pbeGeneralContent h3 {
+    font-size: 0.9rem;
+}
+
+.pbeGeneralContent h4 {
+    font-size: 1rem;
+    }
+
+.pbeGeneralContent h5 {
+    font-size: 0.9rem;
+}
+
+.pbeGeneralContent h6 {
+    font-size: 0.8rem;
+}
+
+.pbeGeneralContent h1 + p,
+.pbeGeneralContent h2 + p,
+.pbeGeneralContent h3 + p,
+.pbeGeneralContent h4 + p,
+.pbeGeneralContent h5 + p,
+.pbeGeneralContent h6 + p{
+    margin-top:0;
+
+}
+
+.pbeGeneralContent a:link,
+.pbeGeneralContent a:visited {
+    color: #2B3775;
+}
+
+.pbeGeneralContent a:hover{
+    color: #475CC4;
+}
+
+.pbeGeneralContent a:active {
+
+}
+
+.pbeGeneralContent table {
+    width: 100%;
+}
+
+.pbeGeneralContent .pbeStripes tr:nth-child(odd){
+    background: rgb(230,230,230);
+
+}
+
+.pbeGeneralContent q {
+    font-style:italic;
+}
+
+.pbeGeneralContent blockquote p {
+    font-size: 1.4em;
+    font-style: italic;
+    border-left: 0px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.pbeGeneralContent footer {
+    display: block;
+    line-height: 1.42857143;
+    color: rgb(100,100,100);
+    text-align: right;
+    font-size: 1em;
+}
+
+.pbeGeneralContent .pbeMinimalList, .pbeGeneralContent .pbeMinimalList ul {
+    list-style-type: none;
+}
+
+.pbeGeneralContent ul.pbeMinimalList {
+    padding-left: 0;
+}
+
+.pbeGeneralContent mark {
+    background-color: #CCB87C;
+}

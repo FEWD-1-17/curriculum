@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(45deg,  #004c99, #009994);
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0;
+  padding: 35px 70px 200px 70px;
+}
+
+code {
+  font-family: courier;
+}
+
+.intro {
+  margin-top: 25px;
+}
+
+.intro h1 {
+  color: rgba(255,255,255,1);
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+/*
+##################################
+######## Container Styles ########
+##################################
+*/
+.base-container {
+  display: grid;
+  margin: 30px 0;
+}
+
+/* Check out grid-gap, 1st value is row spacing, 2nd value is column spacing. Notice how there isn't any gird-template-rows, they get created implicitly by CSS Grid */
+.grid01 {
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px 25px;
+}
+
+.base-child {
+  background-color: #ffd900;
+  border: 1px solid black;
+  color: black;
+  font-size: 48px;
+}

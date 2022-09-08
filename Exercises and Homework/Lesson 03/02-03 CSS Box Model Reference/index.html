@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Box Model - Reference</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>CSS Box Model In-Depth</h1>
+  <hr>
+  <section class="sample">
+    <h2>Basics</h2>
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/box-model-diagram.jpg" alt="Box model basics" />
+    <p>Every block level element on a webpage is a box (div, section, ul, nav, header, footer, etc).</p>
+    <p>All block elements have padding, border, margin ^^^ see above.</p>
+    <p>width + padding + border = actual visible/rendered width of an element's box</p>
+    <p>height + padding + border = actual visible/rendered height of an element's box</p>
+    <p>margin is outside the box</p>
+  </section>
+  <hr>
+  <section class="sample">
+    <h2>Margin</h2>
+    <div class="sample-01">This shows a box with a 200px width and height with a 50px margin all the way around. Notice that the box content has the aquamarine background color but the margin does not.</div>
+    <div class="sample-02">This shows a box with a 200px width and height with a 50px margin top and bottom, but auto margins on left and right. See how it automatically centers? Nice.</div>
+    <div class="sample-03">This shows a box with a 200px width and height with auto margins the whole way around. Looks the same as the above example because the browsers sees no negative space to center vertically.</div>
+  </section>
+  <section class="sample">
+    <h2>Padding</h2>
+    <div class="sample-11">This shows a box with a 200px width and height with a 50px padding all the way around. Because of the padding, the box how has a width and height of 300px even though the CSS width / height properties say 200px (that's because padding gets added to the box size while margins do not).</div>
+  </section>
+  <section class="sample">
+    <h2>Border</h2>
+    <div class="sample-12">Using all of the same properties in the above padding example, we can add a border. It will not inherit the background color of the box but it will add to the box's width and height.</div>
+  </section>
+  <section class="sample">
+    <h2>Margin, Padding + Border</h2>
+    <div class="sample-13">You can combine all the box model properties together. Again, note padding + border count towards height and width while margin does not.</div>
+  </section>
+  <section class="sample">
+    <h2>Overflow - visible</h2>
+    <div class="sample-14">
+      <p>Some times you may scratch your head about the height of a given element. HTML is forgiving and will allow box content to flow beyond a stated height and width. We are using the 200px height from the previous example but notice our content goes outside the box.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula commodo lacus et pretium. Sed blandit,</p>
+    </div>
+  </section>
+  <section class="sample">
+    <h2>Overflow - scroll</h2>
+    <div class="sample-15">
+      <p>You can change this default behavior by setting the overflow property to hidden. Now content will only show inside the true height and width of the box. Note that even though content from previous example overflowed, it didn't compromise the position of this box.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula commodo lacus et pretium. Sed blandit, felis id mattis scelerisque, mi est pharetra quam, ac commodo magna magna vel justo. Suspendisse ultricies iaculis nulla eu ullamcorper. Suspendisse non est consequat, iaculis magna id, iaculis tellus. Nulla facilisis, tortor a feugiat porttitor, ex risus malesuada libero, quis faucibus mi purus eu lacus. In hac habitasse platea dictumst. Vivamus sollicitudin eros pretium ex sodales placerat lobortis eu quam. Praesent porttitor turpis nec congue euismod. Mauris dignissim, mauris feugiat commodo bibendum, ex ipsum congue nunc, a sagittis turpis risus at leo.</p>
+    </div>
+  </section>
+  <section class="sample">
+    <h2>Overflow - hidden</h2>
+    <div class="sample-16">
+      <p>You can change this default behavior by setting the overflow property to hidden. Now content will only show inside the true height and width of the box. Note that even though content from previous example overflowed, it didn't compromise the position of this box.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula commodo lacus et pretium. Sed blandit, felis id mattis scelerisque, mi est pharetra quam, ac commodo magna magna vel justo. Suspendisse ultricies iaculis nulla eu ullamcorper. Suspendisse non est consequat, iaculis magna id, iaculis tellus. Nulla facilisis, tortor a feugiat porttitor, ex risus malesuada libero, quis faucibus mi purus eu lacus. In hac habitasse platea dictumst. Vivamus sollicitudin eros pretium ex sodales placerat lobortis eu quam. Praesent porttitor turpis nec congue euismod. Mauris dignissim, mauris feugiat commodo bibendum, ex ipsum congue nunc, a sagittis turpis risus at leo.</p>
+    </div>
+  </section>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

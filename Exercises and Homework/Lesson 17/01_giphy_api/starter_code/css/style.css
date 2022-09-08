@@ -1,0 +1,15 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin: 30px;
+}
+
+#giphy-results {
+  display: grid;
+  /* CSS Bonus: Use flex or grid properties to display the results in a responsive, clean layout */
+}

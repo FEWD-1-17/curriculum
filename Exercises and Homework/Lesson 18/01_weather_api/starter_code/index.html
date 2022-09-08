@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Using the weather API to search ad display local weather"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Weather Search</title>
+    <meta
+      name="description"
+      content="A handy weather app made with the open weather API"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Search</h1>
+    </header>
+    <main>
+      <h2>Enter a city or zip code to see your weather:</h2>
+      <form id="weather-search">
+        <label for="city">City:</label>
+        <input type="text" name="city" />
+        <input type="submit" />
+      </form>
+      <section class="weather-results-container">
+        <ul id="weather-results">
+          <!-- Your results will be printed here -->
+        </ul>
+        <figure id="weather-icon">
+          <!-- Your icon image will be appended here -->
+        </figure>
+      </section>
+    </main>
+
+    <script src="js/script.js" async defer></script>
+  </body>
+</html>

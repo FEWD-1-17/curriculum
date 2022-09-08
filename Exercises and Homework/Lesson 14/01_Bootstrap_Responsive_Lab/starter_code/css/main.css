@@ -1,0 +1,193 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #aaa;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.site-header {
+  background-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: yellow;
+  border-bottom-width: 2px;
+  padding: 20px;
+}
+
+.logo,
+.logo a:hover {
+  margin: 0;
+  font-size: 32px;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: yellow;
+}
+
+.navigation {
+  width: 750px;
+  float: right;
+}
+
+.horizontal-nav {
+  padding: 0;
+  list-style: none;
+}
+
+.horizontal-nav li {
+  display: inline-block;
+}
+
+.main-nav {
+  font-size: 22px;
+  color: white;
+  overflow: hidden;
+}
+.main-nav li {
+  margin-right: 20px;
+}
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
+.main-nav a {
+  color: white;
+}
+
+.main-nav strong {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Oswald";
+}
+
+.hamburger {
+  max-width: 36px;
+  display: none;
+  overflow: hidden;
+}
+
+.hamburger > img {
+  max-width: 100%;
+}
+
+.tagline {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+.tagline del {
+  color: gray;
+}
+
+.tagline ins {
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: solid yellow 2px;
+}
+
+.hero {
+  background-color: gray;
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.hero-block {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  box-shadow: 0 0 3px #333;
+}
+
+.block-heading {
+  margin: 0;
+}
+
+.block-copy {
+  margin-top: 5px;
+}
+
+.btn-hero {
+  background-color: yellow;
+}
+
+.btn-block {
+  background-color: lightgray;
+}
+
+.block-group {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.block {
+  border-right: solid lightgray 1px;
+  text-align: justify;
+}
+
+.block:last-child {
+  border-right: none;
+}
+
+.copyright {
+  font-family: "Merriweather", serif;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.line-up {
+  position: relative;
+  top: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* Style adjustments for viewports that meet the condition */
+
+  .hamburger {
+    display: block;
+    float: right;
+  }
+
+  .block {
+    border-right: none;
+    margin-bottom: 2em;
+  }
+
+  .navigation {
+    display: none;
+    width: auto;
+    float: none;
+  }
+
+  .showNav {
+    display: block;
+  }
+
+  .horizontal-nav li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .main-nav li {
+    margin-right: 0;
+  }
+
+  .main-nav strong {
+    text-transform: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: normal;
+  }
+}
