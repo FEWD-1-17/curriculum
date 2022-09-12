@@ -16,7 +16,7 @@ Linkedin: https://www.linkedin.com/in/dcartist
 
 # Office Hours
 Please RSVP at-least 4 hours in advance via slack if you will be attending office hours that day.
-* Tor:  Thursday 7pm -> 10pm
+* Tor:  Thursday 7pm EST -> 10pm EST
 * Paula:  TBD
 
 
