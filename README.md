@@ -57,7 +57,7 @@ Graduation Requirements
 
 | Lesson # (Week:Day) | In Class                                                                                                                                                                                                                                                                                                                                              | Class Resources  | Homework  |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lesson 1 (w1:d1)    | Install Git/VS Code |  | N/A |
+| Lesson 1 (w1:d1)    | Install Git/VS Code | https://generalassembly.zoom.us/rec/share/eJZG5Zjjuec81xuoHSewO5Ar3eo0sxoP8ZeaPoW73g_cjHYA7emotyxiZz9aG521.ScKUlbsDo4hTO9ZJ<br /><br />Passcode:Gs2xR9#& | N/A |
 | Lesson 2 (w1:d2)    | HTML Recap &<br />CSS Intro |    | HOMEWORK 01<br />"Xia Dynasty"|
 | Lesson 3 (w2:d1)    | CSS: Box Model |  | N/A |
 | Lesson 4 (w2:d2)    | CSS: Flexbox  | | HOMEWORK 02 <br /> "Startup Matchmaker"|
