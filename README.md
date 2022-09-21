@@ -1,4 +1,7 @@
+
+
 # FEWD 09-12-2022
+
 FEWD 09-12-2022 Class Work
 
 This is a repository of exercises and homework
@@ -55,12 +58,80 @@ Graduation Requirements
 
 ## Course Schedule
 
+
+
+| Lesson # (Week:Day) | In Class            | Homework |
+| ------------------- | ------------------- | -------- |
+| Lesson 1 (w1:d1)    | Install Git/VS Code | N/A      |
+
+**Zoom Link:** 
+<a href="https://generalassembly.zoom.us/rec/share/eJZG5Zjjuec81xuoHSewO5Ar3eo0sxoP8ZeaPoW73g_cjHYA7emotyxiZz9aG521.ScKUlbsDo4hTO9ZJ" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Gs2xR9#&
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 2 (w1:d2)    | HTML Recap & CSS Intro | HOMEWORK 01<br />"Xia Dynasty" |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@
+
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 3 (w2:d1)    | CSS: Box Model | HOMEWORK 02 <br /> "Startup Matchmaker" |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/nXjYMFmQo2NDbNmuu3Fp_9t47QXcyn6SO2NAowA2xUclw5DSuKZcxB2TOUUf7pNR.6nk0jR2vbCE7l8sB" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: s#=^31kV
+<br>
+<a href="https://generalassembly.zoom.us/rec/share/F7fEjrDjEdI7PIVTR2rvCNBg2C6LRcq78sIC6xJJcXWX4EP3CPTOQQ1a95aNUf8.HwJ7ahAC09zfXp0W" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: f6t6i@PM
+
+
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 4 (w2:d2)    | CSS: Flexbox      |   N/A  |
+
+**Zoom Link:**
+<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+N/A
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 5 (w3:d1)    | CSS: Grid  |   N/A |
+
+**Zoom Link:**
+N/A
+<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+
+
+<!-- ------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 2 (w1:d2)    | HTML Recap & CSS Intro | HOMEWORK 01<br />"Xia Dynasty" |
+
+**Zoom Link:** -->
+<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+
+
+<!-- 
+
 | Lesson # (Week:Day) | In Class                                                                                                                                                                                                                                                                                                                                              | Class Resources  | Homework  |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lesson 1 (w1:d1)    | Install Git/VS Code | <a href="https://generalassembly.zoom.us/rec/share/eJZG5Zjjuec81xuoHSewO5Ar3eo0sxoP8ZeaPoW73g_cjHYA7emotyxiZz9aG521.ScKUlbsDo4hTO9ZJ" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Gs2xR9#& | N/A |
-| Lesson 2 (w1:d2)    | HTML Recap &<br />CSS Intro | <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ | HOMEWORK 01<br />"Xia Dynasty"|
-| Lesson 3 (w2:d1)    | CSS: Box Model |  | N/A |
-| Lesson 4 (w2:d2)    | CSS: Flexbox  | | HOMEWORK 02 <br /> "Startup Matchmaker"|
+| Lesson 1 (w1:d1)    | Install Git/VS Code |  | N/A |
+|     | HTML Recap &<br />CSS Intro |  | HOMEWORK 01<br />"Xia Dynasty"|
+|     |  |<a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@||
+|<br/>||||
+|<a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@||||
+|  ||||
+| |
 | Lesson 5 (w3:d1)    | CSS: Grid  |  | N/A|
 | Lesson 6 (w3:d2)    | Layout Lab  | | HOMEWORK 03 <br /> "Trulia" |
 | Lesson 7 (w4:d1)    | Intro To Javascript  | | N/A |
@@ -78,4 +149,4 @@ Graduation Requirements
 | Lesson 19 (w10:d1)  | Project Lab Time |   |  |
 | Lesson 20 (w10:d2) | Project Presentations |  | Farewell! |
 | --    |  --   |  --   | -- |
----
+--- -->
