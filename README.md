@@ -143,8 +143,7 @@ Graduation Requirements
 | Lesson 9 (w5:d1)  | JS Rock Paper Scissor & More Labs  |   N/A |
 
 **Zoom Link:**
-N/A
-<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+<a href="https://generalassembly.zoom.us/rec/share/TUif5AqCTb8gW6-RGIAAsFhzx7GIObJ4bJGiTehqDSxPlKxbTu5EmMKUURIm0xi1.OvdbCdgWtWL2ruN9" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: y^J?4l8=
 
 ------
 
