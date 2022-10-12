@@ -97,8 +97,7 @@ Graduation Requirements
 | Lesson 4 (w2:d2)    | CSS: Flexbox      |   N/A  |
 
 **Zoom Link:**
-<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
-N/A
+<a href="https://generalassembly.zoom.us/rec/share/XPsRkJxOO_epfc5CHY8AmAkjgU7LxfFqT7WJ0CFeM08XO-5gIDnjxYlkn8D2bdNe.HC7XJoYvJcwr9Jss" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br /> Passcode: z!vK46*E
 
 ------
 
@@ -107,8 +106,58 @@ N/A
 | Lesson 5 (w3:d1)    | CSS: Grid  |   N/A |
 
 **Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/p7U1o0mFJrW4SUdhJMV0V_UJj57_CQbPfJiGn9R0HnukQJXrbcxKRkAO3uVpNJfS.-8fqi6kbNdFvSBia" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Q9ikBW*#
+
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 6 (w3:d2)   | Layout Lab  |   HOMEWORK 03 <br /> "Trulia" |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/OrtlHCEaiY9eVEOCWuwS3Jg_NLMKFGCxKiXqVK36tftn-9nbleC9UFmzT5H_Pbj7.kpAmRkprF87iaYt0" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: N1ei5&0v
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 7 (w4:d1)   | Intro To Javascript  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/kLQKZSCQJ9HI-yrGKfq_ImjK7BPcVTXTkRDzaNA-MQUecs52pJhzFPoKIon9Bh2m.s0_gTytH6vNuzz94" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: $ocXzHj1
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 8 (w4:d2)    | JS Basics: DOM  |   JS 3 level Challenge |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/N7Tcc7kTp65cHZDEzlX1ZdNLlOjA7DAUiGQJX8fXUX-cFfnRiTgKh_4AJipShirB.PtpNWNouTGFl8PJi" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: fd8a2?SQ
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 9 (w5:d1)  | JS Rock Paper Scissor & More Labs  |   N/A |
+
+**Zoom Link:**
 N/A
 <!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 10 (w5:d2)    | Responsive Design  |   N/A |
+
+**Zoom Link:**
+N/A
+<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+
+
+
 
 
 <!-- ------
