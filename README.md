@@ -20,7 +20,7 @@ Linkedin: https://www.linkedin.com/in/dcartist
 # Office Hours
 Please RSVP at-least 4 hours in advance via slack if you will be attending office hours that day.
 * Tor:  Thursday 7pm EST -> 10pm EST // 4pm - 7pm PST
-* Paula:  Saturday/Sunday 3pm - 4pm EST // Noon - 1pm PST
+* Paula:  Saturday 3pm - 5pm EST // Noon - 2pm PST
 
 
 # Homework
@@ -152,8 +152,25 @@ Graduation Requirements
 | Lesson 10 (w5:d2)    | Responsive Design  |   N/A |
 
 **Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/NdDP3JlG5N75piTQq_rH3fB391Q52bKabrAz_E0KmRpKXUzToxyZQ_CEHfHMzTqF.GWbXXHRXjs2rDU_m" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: L#5D=W^w
+
+------
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 11 (w6:d1)   | Responsive Review, Troubleshooting, More Applied Media Queires  |   N/A |
+
+**Zoom Link:**
 N/A
-<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
+<!-- <a href="https://generalassembly.zoom.us/rec/share/NdDP3JlG5N75piTQq_rH3fB391Q52bKabrAz_E0KmRpKXUzToxyZQ_CEHfHMzTqF.GWbXXHRXjs2rDU_m" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: L#5D=W^w -->
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 12 (w6:d2)    | Mid Course Review  |   Trulia Landing Returns |
+
+**Zoom Link:**
+N/A
+<!-- <a href="https://generalassembly.zoom.us/rec/share/NdDP3JlG5N75piTQq_rH3fB391Q52bKabrAz_E0KmRpKXUzToxyZQ_CEHfHMzTqF.GWbXXHRXjs2rDU_m" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: L#5D=W^w -->
 
 
 
