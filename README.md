@@ -161,8 +161,7 @@ Graduation Requirements
 | Lesson 11 (w6:d1)   | Responsive Review, Troubleshooting, More Applied Media Queires  |   N/A |
 
 **Zoom Link:**
-N/A
-<!-- <a href="https://generalassembly.zoom.us/rec/share/NdDP3JlG5N75piTQq_rH3fB391Q52bKabrAz_E0KmRpKXUzToxyZQ_CEHfHMzTqF.GWbXXHRXjs2rDU_m" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: L#5D=W^w -->
+<a href="https://generalassembly.zoom.us/rec/share/gZflJ2Y1wggOkBMinpJDDOrPR5Eh-qUTcfKzZNvKsj5GCjAMjHcRjz8HkOotg2UT.AeSkK_XG0XJLsqVX" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: sG7G%6W^
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
 | ------------------- | --------------------------- | ------------------------------ |
