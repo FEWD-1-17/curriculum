@@ -168,8 +168,23 @@ Graduation Requirements
 | Lesson 12 (w6:d2)    | Mid Course Review  |   Trulia Landing Returns |
 
 **Zoom Link:**
-N/A
-<!-- <a href="https://generalassembly.zoom.us/rec/share/NdDP3JlG5N75piTQq_rH3fB391Q52bKabrAz_E0KmRpKXUzToxyZQ_CEHfHMzTqF.GWbXXHRXjs2rDU_m" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: L#5D=W^w -->
+<a href="https://generalassembly.zoom.us/rec/share/NOhQYvrDILcqtLq1Z1vxR0EozCQPyeqTDYmEFv-S2Q349AHxCnBAge8W_MXPsAfE.OqFX6j0C1pGwlz2l" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: m9Jj3f+=
+
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 13 (w7:d1)    | Arrays and Loops  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/JkHEYAJKkheJWT0Aq_VYF4RdacvSOT7N3_KWzkmhCVjvwU5pJ6lpXrYGM1BC8AqN.yQ0RJk4_yXammL5k" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =dC1YRQ2
+
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 14 (w7:d2)   |Bootstrap  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/b2HenjWTG0iK4hzGmwmpS4xhysyVkqeOButjgI5NqyB4uuyLqKV2G4NgITudTTX5.VCj3Q6XhfLreqCxy" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 4gJ*@#0A
 
 
 
