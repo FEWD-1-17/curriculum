@@ -188,6 +188,70 @@ Graduation Requirements
 
 
 
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 15 (w8:d1)     |Forms  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/an8B-eUrbUfOKcUV4u7H0TEv6iIm5EiBvy_gh8wUlfvWvwkhCcTQJeg10Xij2flq.zovgyz5Qq6Gj0dVu" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: S15$&8!s
+
+
+
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 16 (w8:d2)     |PetFinder Lab  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/vnOdbP54ZO-alDRV_HPgEVya19_NsOvEtZZnbSwYvFbYqJNx3ic8Y4bGZMXNz6Fx.zv05QRl056eoHXA4" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 3ek$NeY
+
+
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 17 (w9:d1)      |APIs  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/0Z-Oul1uy833yqjeY22gClNU8OHsJnSAij5kUbju2lcGddqry7M-L17sh8uCGxw1.fzJLIYISd7DDNxlx" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: a4#^Zy%Q
+
+
+
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 18 (w9:d2)      |API Labs ( weather/OMDB)  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/YCUMZIJF6YieMKKDblt9HOWUhidVzNPufcbxkF9vtLQl_g8r9e2reJnuEnclTLk.WTXP9_2JNVPdf_-C" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =?HqS5.+
+
+
+
+
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 19 (w10:d1)      | Sass and React  |   N/A |
+
+React:
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/xz2ejoD4u1l5adOq2MYV7DE160OlFap7pUKhJFIcY_bjCkNtkJSpjOO3h8PQ7696.Ac864QrMDGhyWvXl" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =d023x%a
+Sass:
+**Zoom Link:**
+N/A
+<!-- <a href="https://generalassembly.zoom.us/rec/share/0Z-Oul1uy833yqjeY22gClNU8OHsJnSAij5kUbju2lcGddqry7M-L17sh8uCGxw1.fzJLIYISd7DDNxlx" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: a4#^Zy%Q -->
+
+
+<!-- 
+| Lesson # (Week:Day) | In Class                    | Homework                       |
+| ------------------- | --------------------------- | ------------------------------ |
+| Lesson 17 (w10:d1)      |APIs  |   N/A |
+
+**Zoom Link:**
+<a href="https://generalassembly.zoom.us/rec/share/0Z-Oul1uy833yqjeY22gClNU8OHsJnSAij5kUbju2lcGddqry7M-L17sh8uCGxw1.fzJLIYISd7DDNxlx" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: a4#^Zy%Q
+ -->
+
+
+
+
 
 
 <!-- ------
