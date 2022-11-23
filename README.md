@@ -234,6 +234,8 @@ Graduation Requirements
 React:
 **Zoom Link:**
 <a href="https://generalassembly.zoom.us/rec/share/xz2ejoD4u1l5adOq2MYV7DE160OlFap7pUKhJFIcY_bjCkNtkJSpjOO3h8PQ7696.Ac864QrMDGhyWvXl" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =d023x%a
+
+
 Sass:
 **Zoom Link:**
 N/A
