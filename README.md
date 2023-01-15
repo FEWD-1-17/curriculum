@@ -1,8 +1,8 @@
 
 
-# FEWD 09-12-2022
+# FEWD 01-17-2023
 
-FEWD 09-12-2022 Class Work
+FEWD 01-17-2023 Class Work
 
 This is a repository of exercises and homework
 
@@ -65,7 +65,7 @@ Graduation Requirements
 | Lesson 1 (w1:d1)    | Install Git/VS Code | N/A      |
 
 **Zoom Link:** 
-<a href="https://generalassembly.zoom.us/rec/share/eJZG5Zjjuec81xuoHSewO5Ar3eo0sxoP8ZeaPoW73g_cjHYA7emotyxiZz9aG521.ScKUlbsDo4hTO9ZJ" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Gs2xR9#&
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 ------
 
@@ -74,7 +74,7 @@ Graduation Requirements
 | Lesson 2 (w1:d2)    | HTML Recap & CSS Intro | HOMEWORK 01<br />"Xia Dynasty" |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 ------
@@ -84,9 +84,8 @@ Graduation Requirements
 | Lesson 3 (w2:d1)    | CSS: Box Model | HOMEWORK 02 <br /> "Startup Matchmaker" |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/nXjYMFmQo2NDbNmuu3Fp_9t47QXcyn6SO2NAowA2xUclw5DSuKZcxB2TOUUf7pNR.6nk0jR2vbCE7l8sB" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: s#=^31kV
-<br>
-<a href="https://generalassembly.zoom.us/rec/share/F7fEjrDjEdI7PIVTR2rvCNBg2C6LRcq78sIC6xJJcXWX4EP3CPTOQQ1a95aNUf8.HwJ7ahAC09zfXp0W" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: f6t6i@PM
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  
+
 
 
 
@@ -97,7 +96,7 @@ Graduation Requirements
 | Lesson 4 (w2:d2)    | CSS: Flexbox      |   N/A  |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/XPsRkJxOO_epfc5CHY8AmAkjgU7LxfFqT7WJ0CFeM08XO-5gIDnjxYlkn8D2bdNe.HC7XJoYvJcwr9Jss" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br /> Passcode: z!vK46*E
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br /> Passcode: 
 
 ------
 
@@ -106,7 +105,7 @@ Graduation Requirements
 | Lesson 5 (w3:d1)    | CSS: Grid  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/p7U1o0mFJrW4SUdhJMV0V_UJj57_CQbPfJiGn9R0HnukQJXrbcxKRkAO3uVpNJfS.-8fqi6kbNdFvSBia" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Q9ikBW*#
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 ------
@@ -116,8 +115,7 @@ Graduation Requirements
 | Lesson 6 (w3:d2)   | Layout Lab  |   HOMEWORK 03 <br /> "Trulia" |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/OrtlHCEaiY9eVEOCWuwS3Jg_NLMKFGCxKiXqVK36tftn-9nbleC9UFmzT5H_Pbj7.kpAmRkprF87iaYt0" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: N1ei5&0v
-
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 ------
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -125,7 +123,7 @@ Graduation Requirements
 | Lesson 7 (w4:d1)   | Intro To Javascript  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/kLQKZSCQJ9HI-yrGKfq_ImjK7BPcVTXTkRDzaNA-MQUecs52pJhzFPoKIon9Bh2m.s0_gTytH6vNuzz94" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: $ocXzHj1
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 ------
 
@@ -134,7 +132,7 @@ Graduation Requirements
 | Lesson 8 (w4:d2)    | JS Basics: DOM  |   JS 3 level Challenge |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/N7Tcc7kTp65cHZDEzlX1ZdNLlOjA7DAUiGQJX8fXUX-cFfnRiTgKh_4AJipShirB.PtpNWNouTGFl8PJi" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: fd8a2?SQ
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 ------
 
@@ -143,7 +141,7 @@ Graduation Requirements
 | Lesson 9 (w5:d1)  | JS Rock Paper Scissor & More Labs  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/TUif5AqCTb8gW6-RGIAAsFhzx7GIObJ4bJGiTehqDSxPlKxbTu5EmMKUURIm0xi1.OvdbCdgWtWL2ruN9" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: y^J?4l8=
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 ------
 
@@ -152,7 +150,7 @@ Graduation Requirements
 | Lesson 10 (w5:d2)    | Responsive Design  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/NdDP3JlG5N75piTQq_rH3fB391Q52bKabrAz_E0KmRpKXUzToxyZQ_CEHfHMzTqF.GWbXXHRXjs2rDU_m" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: L#5D=W^w
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 ------
 
@@ -161,14 +159,14 @@ Graduation Requirements
 | Lesson 11 (w6:d1)   | Responsive Review, Troubleshooting, More Applied Media Queires  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/gZflJ2Y1wggOkBMinpJDDOrPR5Eh-qUTcfKzZNvKsj5GCjAMjHcRjz8HkOotg2UT.AeSkK_XG0XJLsqVX" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: sG7G%6W^
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
 | ------------------- | --------------------------- | ------------------------------ |
 | Lesson 12 (w6:d2)    | Mid Course Review  |   Trulia Landing Returns |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/NOhQYvrDILcqtLq1Z1vxR0EozCQPyeqTDYmEFv-S2Q349AHxCnBAge8W_MXPsAfE.OqFX6j0C1pGwlz2l" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: m9Jj3f+=
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -176,7 +174,7 @@ Graduation Requirements
 | Lesson 13 (w7:d1)    | Arrays and Loops  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/JkHEYAJKkheJWT0Aq_VYF4RdacvSOT7N3_KWzkmhCVjvwU5pJ6lpXrYGM1BC8AqN.yQ0RJk4_yXammL5k" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =dC1YRQ2
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -184,7 +182,7 @@ Graduation Requirements
 | Lesson 14 (w7:d2)   |Bootstrap  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/b2HenjWTG0iK4hzGmwmpS4xhysyVkqeOButjgI5NqyB4uuyLqKV2G4NgITudTTX5.VCj3Q6XhfLreqCxy" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 4gJ*@#0A
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 
@@ -193,7 +191,7 @@ Graduation Requirements
 | Lesson 15 (w8:d1)     |Forms  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/an8B-eUrbUfOKcUV4u7H0TEv6iIm5EiBvy_gh8wUlfvWvwkhCcTQJeg10Xij2flq.zovgyz5Qq6Gj0dVu" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: S15$&8!s
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 
@@ -203,7 +201,7 @@ Graduation Requirements
 | Lesson 16 (w8:d2)     |PetFinder Lab  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/vnOdbP54ZO-alDRV_HPgEVya19_NsOvEtZZnbSwYvFbYqJNx3ic8Y4bGZMXNz6Fx.zv05QRl056eoHXA4" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 3ek$NeY
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  
 
 
 
@@ -212,7 +210,7 @@ Graduation Requirements
 | Lesson 17 (w9:d1)      |APIs  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/0Z-Oul1uy833yqjeY22gClNU8OHsJnSAij5kUbju2lcGddqry7M-L17sh8uCGxw1.fzJLIYISd7DDNxlx" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: a4#^Zy%Q
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 
@@ -222,7 +220,7 @@ Graduation Requirements
 | Lesson 18 (w9:d2)      |API Labs ( weather/OMDB)  |   N/A |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/YCUMZIJF6YieMKKDblt9HOWUhidVzNPufcbxkF9vtLQl_g8r9e2reJnuEnclTLk.WTXP9_2JNVPdf_-C" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =?HqS5.+
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 
@@ -233,65 +231,9 @@ Graduation Requirements
 
 React:
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/xz2ejoD4u1l5adOq2MYV7DE160OlFap7pUKhJFIcY_bjCkNtkJSpjOO3h8PQ7696.Ac864QrMDGhyWvXl" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: =d023x%a
+<a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 
 
 
 Sass:
 **Zoom Link:**
 N/A
-<!-- <a href="https://generalassembly.zoom.us/rec/share/0Z-Oul1uy833yqjeY22gClNU8OHsJnSAij5kUbju2lcGddqry7M-L17sh8uCGxw1.fzJLIYISd7DDNxlx" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: a4#^Zy%Q -->
-
-
-<!-- 
-| Lesson # (Week:Day) | In Class                    | Homework                       |
-| ------------------- | --------------------------- | ------------------------------ |
-| Lesson 17 (w10:d1)      |APIs  |   N/A |
-
-**Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/0Z-Oul1uy833yqjeY22gClNU8OHsJnSAij5kUbju2lcGddqry7M-L17sh8uCGxw1.fzJLIYISd7DDNxlx" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: a4#^Zy%Q
- -->
-
-
-
-
-
-
-<!-- ------
-
-| Lesson # (Week:Day) | In Class                    | Homework                       |
-| ------------------- | --------------------------- | ------------------------------ |
-| Lesson 2 (w1:d2)    | HTML Recap & CSS Intro | HOMEWORK 01<br />"Xia Dynasty" |
-
-**Zoom Link:** -->
-<!-- <a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@ -->
-
-
-<!-- 
-
-| Lesson # (Week:Day) | In Class                                                                                                                                                                                                                                                                                                                                              | Class Resources  | Homework  |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lesson 1 (w1:d1)    | Install Git/VS Code |  | N/A |
-|     | HTML Recap &<br />CSS Intro |  | HOMEWORK 01<br />"Xia Dynasty"|
-|     |  |<a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@||
-|<br/>||||
-|<a href="https://generalassembly.zoom.us/rec/share/1Y2bVpGDh8GE-Q119BxCYFZp8Cm8hoy50ZRmLeKQZr5i_ocCFuOu2j_ChIEukyo.NYhoyzvoaoGO3I7O" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: r44XY5#@||||
-|  ||||
-| |
-| Lesson 5 (w3:d1)    | CSS: Grid  |  | N/A|
-| Lesson 6 (w3:d2)    | Layout Lab  | | HOMEWORK 03 <br /> "Trulia" |
-| Lesson 7 (w4:d1)    | Intro To Javascript  | | N/A |
-| Lesson 8 (w4:d2)    | JS Basics: DOM  | | JS 3 level Challenge|
-| Lesson 9 (w5:d1)    | JS Rock Paper Scissor & More Labs |  | N/A |
-| Lesson 10 (w5:d2)   | Responsive Design |    | Create wireframes for your Project |
-| Lesson 11 (w6:d1)     | Responsive Review, Troubleshooting, More Applied Media Queires |    | N/A |
-| Lesson 12 (w6:d2)  | Mid Course Review  | | Trulia Landing Returns |
-| Lesson 13 (w7:d1)  | Arrays and Loops   |   | N/A |
-| Lesson 14 (w7:d2)  |Bootstrap  |    |  Continue HW 6/ Work on Final Project  |
-| Lesson 15 (w8:d1)  |Forms   |  |  N/A |
-| Lesson 16 (w8:d2)  | PetFinder Lab  |   |  Work on Final Project! |
-| Lesson 17 (w9:d1)  |APIs  |   |Continue Final Projects!  |
-| Lesson 18 (w9:d2)  |API Labs ( weather/OMDB)  |    | Continue Final Projects! |
-| Lesson 19 (w10:d1)  | Project Lab Time |   |  |
-| Lesson 20 (w10:d2) | Project Presentations |  | Farewell! |
-| --    |  --   |  --   | -- |
---- -->
