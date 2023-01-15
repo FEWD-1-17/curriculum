@@ -26,7 +26,7 @@ Please RSVP at-least 4 hours in advance via slack if you will be attending offic
 # Homework
 The homework and in-class assignments for this course are designed to help you apply and hone the skills and knowledge you’re learning. Assignments build upon each other, and each represents a different element of your final project. Some assignments will be done in class, while others will be completed as homework.
 
-Homework does not receive a grade, only confirmation of whether or not it’s been completed. To submit your homework use this link: <a href="https://form.jotform.com/222547035067151" target="_blank" rel="noopener noreferrer">https://form.jotform.com/222547035067151</a>
+Homework does not receive a grade, only confirmation of whether or not it’s been completed. To submit your homework use this link: <a href="https://form.jotform.com/230144447034144" target="_blank" rel="noopener noreferrer">https://form.jotform.com/230144447034144</a>
 
 Homework is due the Thursday (US) / Friday (AU) AFTER the week it was assigned.  If homework is turned in on time, it will be given a full review along with comments on the work.  Late homework will be accepted up to and including the last day of class but will only be checked for completion.
 
@@ -227,13 +227,7 @@ Graduation Requirements
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
 | ------------------- | --------------------------- | ------------------------------ |
-| Lesson 19 (w10:d1)      | Sass and React  |   N/A |
+| Lesson 19 (w10:d1)      | ?????  |   N/A |
 
-React:
-**Zoom Link:**
+
 <!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-
-
-Sass:
-**Zoom Link:**
-N/A
