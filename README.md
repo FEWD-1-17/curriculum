@@ -14,6 +14,8 @@ LinkedIn: https://www.linkedin.com/in/tor-johnson-5629231/
 Paula Bannerman
 pbannerman13@gmail.com
 Linkedin: https://www.linkedin.com/in/dcartist
+Website: https://www.dcartist.com
+
 
 
 
