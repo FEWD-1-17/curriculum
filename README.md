@@ -67,7 +67,8 @@ Graduation Requirements
 | Lesson 1 (w1:d1)    | Install Git/VS Code | N/A      |
 
 **Zoom Link:** 
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+
+<a href="https://generalassembly.zoom.us/rec/share/_6B8Rh3GM90Ga2jT7xXCR3l8i3lmkv85R8sBQrYv19EZ48k6dNwKsDhFiHJaYo1W.HxGCk77KfSslCoOU " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 11?4p%vK
 
 ------
 
