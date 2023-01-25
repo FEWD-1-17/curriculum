@@ -1,0 +1,60 @@
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+/* Center the container */
+.outer-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.pageIntro {
+  background: #131e27;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.pageIntro .logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+/* Core Styles */
+.relaxr-corestyles p {
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.pageFooter {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.pageFooter p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+

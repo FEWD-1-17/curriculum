@@ -1,15 +1,22 @@
 /* Just one way you could style things */
 
+
 .aa {
   background-color: #292929;
   padding: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hp-news-block-container img {
+  border: 3px solid orange;
+  padding: 10px 0 10px 0;
+  margin-bottom: 44px;
 }
 
 .hp-news-category {
   display: block;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: Arial, sans-serif;
   font-weight: bolder;
   line-height: 1;
   color: #fff;
@@ -20,15 +27,58 @@
   margin: 5px 0;
   font-weight: lighter;
   color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hp-news-author, .hp-news-date  {
   color: #fff;
   text-transform: uppercase;
-  font-family: sans-serif;
   line-height: .1;
+  margin-top: 30px;
 }
 
 img {
   width: 100%;
 }
+
+.ichi {
+  box-sizing: border-box;
+  width: 100px;
+  padding: 10px;
+  border: 10px solid brown;
+  background: tan;
+  margin: 10px;
+}
+
+.ni {
+  box-sizing: content-box;
+  width: 100px;
+  padding: 10px;
+  border: 10px solid teal;
+  background-color: purple;
+  margin: 10px;
+}
+
+p {
+  color: green;
+}
+
+section p {
+  color: pink;
+}
+
+p {
+  color: orange;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
