@@ -88,7 +88,7 @@ Passcode: K.c*k8t!
 | Lesson 3 (w2:d1)    | CSS: Box Model | HOMEWORK 02 <br /> "Startup Matchmaker" |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:   -->
+<a href="https://generalassembly.zoom.us/rec/share/zyyNG0-0ZwmO1q-9NHuoyzqRSzAvqjQ1IDY6ZzuqsW5NH6KzecE2ztzDXibz68-N.SAhLJNjzCcL0WZQH" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: KQ=3!Q!1 
 
 
 
@@ -100,7 +100,8 @@ Passcode: K.c*k8t!
 | Lesson 4 (w2:d2)    | CSS: Flexbox      |   N/A  |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br /> Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/u3j027O-Clq4HbDMzBsTUvh0rhroiCKjVdYhlefZ6ugb2IZmUe4TjjfcJJEkpc5y.Fd_QEf18MFzlzX1E?startTime=1674773938000" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br /> Passcode: hgb%8.6s
+
 
 ------
 
