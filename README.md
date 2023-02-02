@@ -110,7 +110,7 @@ Passcode: K.c*k8t!
 | Lesson 5 (w3:d1)    | CSS: Grid  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/2KRIDly116s7Q8vgW1RoCKGRqf2x2Q2Ygo_2dLrJ6I2yk7bbyC5N2IMNEsa_3EmE.N-rEqIU1SIoe74iw" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Q6R49!!Z
 
 
 ------
