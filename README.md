@@ -120,7 +120,9 @@ Passcode: K.c*k8t!
 | Lesson 6 (w3:d2)   | Layout Lab  |   HOMEWORK 03 <br /> "Trulia" |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/GBo07N2sbXFbJDyCj5-hq2bck18S3vFlSh_-PciCyY8vb0ptTFQIw6umjKWxSj1H.0CU4FsMryMKogVkG" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: ^77xu7Fi 
+
+
 ------
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
