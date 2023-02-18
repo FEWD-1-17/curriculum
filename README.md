@@ -130,7 +130,8 @@ Passcode: K.c*k8t!
 | Lesson 7 (w4:d1)   | Intro To Javascript  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/_fmz9UZ_JRXD2Gy2NCK5WJokK7DhYXoALoIj1tkg6J73jaAiFPUaRDmjvX-I-1tC.bTi9lxY6xjuKqndj " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 6KFfuvF^
+
 
 ------
 
@@ -139,7 +140,8 @@ Passcode: K.c*k8t!
 | Lesson 8 (w4:d2)    | JS Basics: DOM  |   JS 3 level Challenge |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/BcrxBx3Y03lfIWsFg2vy3qa8U3IoJSOjrGdCs_FGwi_899Vir_YdMZfxW_-Zywcm.ILBDKZ8wFjmVRtL1 " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: ck$o09Km
+
 
 ------
 
@@ -148,8 +150,8 @@ Passcode: K.c*k8t!
 | Lesson 9 (w5:d1)  | JS Rock Paper Scissor & More Labs  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-
+<a href="https://generalassembly.zoom.us/rec/share/Htj7edCHYzqH3BxVnD22lQF1IZpiNctGV4sGto1dfeYc-nH2n1UgNAhHhDHw8OVZ.CZsF6VpOweNCbfHr" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: fVRN=5z^
+ 
 ------
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -157,7 +159,7 @@ Passcode: K.c*k8t!
 | Lesson 10 (w5:d2)    | Responsive Design  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/RVrYL1A7rvdcjubz0AmTTHE4ZAVa7lEHeZhuDGpxQCk-PSLDoPTSoz3QcjTQcPRI.JvkQqCqjDH5Ms8Ky" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: *5JxX9S%
 
 ------
 
