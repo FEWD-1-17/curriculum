@@ -1,0 +1,94 @@
+
+
+.sockLogo {
+   max-height:2rem;
+    margin-right: 1rem;
+}
+
+/* Sock Hero */
+
+.sockHero {
+    background: url('images/sockHero.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sockHero_inner{
+    background: rgb(0,0,0,0.85);
+    color: white;
+    padding: 6rem 2rem;
+}
+
+.sockHero .lead {
+    font-weight: 600;
+}
+
+/* Product Block */
+
+
+.productBlock {
+    margin-bottom: 2rem;
+}
+
+.productBlock h1 {
+    font-size: 1.6rem;
+}
+
+.productBlock h2 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: right;
+}
+
+.productBlock h1 a {
+    text-decoration: none;
+    color: rgb(60,60,60);
+}
+
+
+.productBlockOptions {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+
+
+.productBlockOptions_swatches {
+    display: flex;
+    justify-content: start;
+    gap: 0.6rem;
+
+}
+
+.productBlockOptions_swatches > a {
+    border: 2px solid rgb(60,60,60);
+    border-radius: 2px;
+    width: 1.6rem;
+    height: 1.6rem;
+    box-sizing: border-box;
+}
+
+.productBlockOptions_swatches > a.productBlockOptions_swatches_selected {
+    border-color: #2852c7;
+    box-shadow: 2px 5px 5px rgb(60,60,60);
+}
+
+.productBlockOptions_swatches > a:hover {
+    border-color: rgb(200,200,200);
+}
+
+.productBlockOptions_inner {
+    display: block
+}
+
+.productBlockOptions_price {
+    font-size: 1.5rem;
+}
+
+.productBlock .card-footer {
+    display:flex;
+    justify-content: end;
+}
