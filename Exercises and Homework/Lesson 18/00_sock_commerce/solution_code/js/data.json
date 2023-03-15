@@ -1,0 +1,52 @@
+[
+  {
+    "id": 532,
+    "name": "Dress Socks",
+    "description": "",
+    "colors":["#294d06","#222222","#10273d","#000000"],
+    "sizes": ["S","M","L"],
+    "price": 40.99,
+    "img": "socks-dress.png",
+    "link": "/addToCart/product/532"
+  },
+  {
+    "id": 621,
+    "name": "Cotton Socks",
+    "description": "",
+    "colors":["#ffffff","#aaaaaa"],
+    "sizes": ["S","M","L","XL"],
+    "price": 40.99,
+    "img": "socks-cotton.png",
+    "link": "/addToCart/product/621"
+  },
+  {
+    "id": 402,
+    "name": "Green Sport Socks",
+    "description": "",
+    "colors":["#ffffff","#000000","#5566aa"],
+    "sizes": ["S","L"],
+    "price": 37.99,
+    "img": "socks-greensport.png",
+    "link": "/addToCart/product/402"
+  },
+  {
+    "id": 884,
+    "name": "Infant Socks",
+    "description": "",
+    "colors":["#759fea","#ea75e6","#000000"],
+    "sizes": ["XS"],
+    "price": 12.99,
+    "img": "socks-infant.png",
+    "link": "/addToCart/product/884"
+  },
+  {
+    "id": 222,
+    "name": "White Socks",
+    "description": "",
+    "colors":["#ffffff"],
+    "sizes": ["S","M","L"],
+    "price": 8.99,
+    "img": "socks-white.png",
+    "link": "/addToCart/product/222"
+  }
+]
