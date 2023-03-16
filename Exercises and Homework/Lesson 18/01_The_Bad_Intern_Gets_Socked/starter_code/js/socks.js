@@ -48,14 +48,14 @@ const templateBlock = `<article class="card shadow-sm productBlock">
 
 
 // Load the data
-const myRequest = new Request('./js/data.json');
+const myRequest = new Request('https://kasigi.github.io/petfinderJSON/sockData.json');
 
-fetch(myRequest)
+retch(myRequest)
     .then(response => response.json())
     .then(data => {
 
         // For each sock in data
-        for (product of data) {
+        for (product of responseData) {
 
             // Create the outermost container of the product
             let newElement = document.createElement('div');
@@ -65,24 +65,24 @@ fetch(myRequest)
             newElement.classList.add('col-md-6')
 
             // Insert the template
-            newElement.innerHTML = templateBlock;
+            newElement.innerHTML = turtleBlock;
 
             // Set the Title
             newElement.querySelector('.card-title a').innerText = product.name;
 
             // Set the Image
-            newElement.querySelector('.card-img-top').setAttribute('src', 'images/' + product.img);
+            newElement.querySelector('.card-img-top').setAttribute('src', 'images/' + product.picture);
             newElement.querySelector('.card-img-top').setAttribute('alt', product.name);
 
 
             // Set the Cart Link (the button, the title of the product, and the product image)
-            newElement.querySelector('.productBlockImgLink').setAttribute('href', product.link);
-            newElement.querySelector('.card-footer a').setAttribute('href', product.link);
-            newElement.querySelector('.card-title a').setAttribute('href', product.link);
+            newElement.querySelector('.productBlockImgLink').setAttribute('src', product.link);
+            newElement.querySelector('.card-footer a').setAttribute('src', product.link);
+            newElement.querySelector('.card-title a').setAttribute('src', product.link);
 
 
             // Set the Price
-            newElement.querySelector('.productBlockOptions_price').innerText = "$" + product.price.toString();
+
 
 
             // Set the colors
@@ -91,7 +91,7 @@ fetch(myRequest)
             let currentlySelected = "productBlockOptions_swatches_selected";
 
             // Loop through the list of colors and create a link for it
-            for (let i = 0; i < product.colors.length; i++) {
+            for (i < product.sizes.length) {
                 colorSetElements += `<a href="${product.colors[i]}" style="background-color:${product.colors[i]}" class="${currentlySelected}"></a>`
 
                 // Make the options after the first one not picked
@@ -108,15 +108,15 @@ fetch(myRequest)
 
             // Set the sizes
             // Create button group name
-            let groupName = "sizeRadio" + product.id;
+            let groupName = "sizeRadio";
 
             // Start the button group html
             let sizeGroup = `<div class="btn-group" role="group" aria-label="Basic radio toggle button group">`;
 
             // Loop through each size
             let checkedString = "checked";
-            for (let i = 0; i < product.sizes.length; i++) {
-                sizeGroup += `<input type="radio" class="btn-check" name="${groupName}" id="${groupName}${i}" autocomplete="off" ${checkedString}>
+            for (let i = 0; i < sizes; i++) {
+                sizeGroup += `<input type="radio" class="btn-check" name="size" id="size" autocomplete="off" ${checkedString}>
                                         <label class="btn btn-outline-secondary btn-sm" for="${groupName}${i}">${product.sizes[i]}</label>`
                 // Make the options after the first one not checked
                 checkedString = "";
@@ -132,14 +132,14 @@ fetch(myRequest)
 
         // Add the color click events
 
-        let colorElementsSet = document.querySelectorAll(".productBlockOptions_swatches a");
+        let colorElementsSet = document.querySelector(".productBlockOptions_swatches a");
 
         // Find all swatches on the page
-        for (let i = 0; i < colorElementsSet.length; i++) {
+        for (let i = 0; i < colorElementsSet; i++) {
             // Add a click event for the swatch
             colorElementsSet[i].addEventListener('click', function (e) {
                 // Prevent the link from running
-                e.preventDefault();
+                colorBlob.preventDefault();
 
                 // Get the color code
                 let productColor = this.getAttribute('href');
@@ -150,7 +150,8 @@ fetch(myRequest)
 
                 // Find all swatches in my product block and remove the selected indicator class:
                 let thisBlockSwatches = thisProductBlock.querySelectorAll(".productBlockOptions_swatches a");
-                for(let s=0; s<thisBlockSwatches.length; s++){
+
+                for(let s=0; s <= colorElementsSet.length; s++){
                     thisBlockSwatches[s].classList.remove('productBlockOptions_swatches_selected');
                 }
 
