@@ -176,6 +176,8 @@ Passcode: K.c*k8t!
 
 **Zoom Link:**
 <!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+https://generalassembly.zoom.us/rec/share/SGPBGOAyKnNF-Ii55z6nEgk-2CSrMiby98IetubedWmGezPIcSF3_ByIAlJOO9pr.yjlBMwAf7VPx5Jgu 
+Passcode: mJHYpF6=
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -184,6 +186,9 @@ Passcode: K.c*k8t!
 
 **Zoom Link:**
 <!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+https://generalassembly.zoom.us/rec/share/v-J2NdgcYTz0cLUAfdVKjAAXNdDv_BT0XGAMJd1za6AmmaZw1LqfuchtuKkPz6Kd.SqgOYiocLyX00gUe 
+Passcode: *Cf3.Zs4
+
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -192,7 +197,8 @@ Passcode: K.c*k8t!
 
 **Zoom Link:**
 <!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-
+https://generalassembly.zoom.us/rec/share/VM4R_BHL1ADYarUnSFqGjkN-g19bhLC9t0b0BXMjyp37pbbXBQaTCFn5Gd-kn3iy.vqeBYW6KO0rfetgQ 
+Passcode: B!?f5Co=
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -200,7 +206,8 @@ Passcode: K.c*k8t!
 | Lesson 15 (w8:d1)     |Forms  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/66T5JD4_MXbgN4XetMLPrP0nA4iwapuXY8ZOQPL8PekcXah-SC_5Cdm7-dKu3jHv.E_I5sYmsVanZhAlT" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: Passcode: zFt2!KBt
+ 
 
 
 
@@ -210,7 +217,7 @@ Passcode: K.c*k8t!
 | Lesson 16 (w8:d2)     |PetFinder Lab  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:   -->
+<a href="https://generalassembly.zoom.us/rec/share/X52m6uxHk7U8WjjJ-OUwJgKCpQE-FenW6Ic6cppk8bSFHRrb385OT0epLLMH5y2c.TEUKHRYC2xOHBiud" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: X&X#bk48
 
 
 
@@ -219,8 +226,8 @@ Passcode: K.c*k8t!
 | Lesson 17 (w9:d1)      |APIs  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-
+<a href="https://generalassembly.zoom.us/rec/share/4ECrgMxRE5jFNzvj6wAafkb9DGzfABqw1XGcYRXV3VdHVeDJhYB63bb5ROHyRB86.wynaiPckecC2mT2l" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: GRw0+tK2
+ 
 
 
 
@@ -229,7 +236,7 @@ Passcode: K.c*k8t!
 | Lesson 18 (w9:d2)      |API Labs ( weather/OMDB)  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/5nPFEddAUPnqytSoPHOxEO75eo4KjHINnweQiDszvDkCEgmWqfWLPjzAOM_qS_fQ.GyATCn9-5MfXKzOL" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: .UTazw4C
 
 
 
