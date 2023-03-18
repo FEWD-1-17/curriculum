@@ -175,9 +175,8 @@ Passcode: K.c*k8t!
 | Lesson 12 (w6:d2)    | Mid Course Review  |   Trulia Landing Returns |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-https://generalassembly.zoom.us/rec/share/SGPBGOAyKnNF-Ii55z6nEgk-2CSrMiby98IetubedWmGezPIcSF3_ByIAlJOO9pr.yjlBMwAf7VPx5Jgu 
-Passcode: mJHYpF6=
+<a href="https://generalassembly.zoom.us/rec/share/SGPBGOAyKnNF-Ii55z6nEgk-2CSrMiby98IetubedWmGezPIcSF3_ByIAlJOO9pr.yjlBMwAf7VPx5Jgu " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: mJHYpF6=
+
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
@@ -185,9 +184,8 @@ Passcode: mJHYpF6=
 | Lesson 13 (w7:d1)    | Arrays and Loops  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-https://generalassembly.zoom.us/rec/share/v-J2NdgcYTz0cLUAfdVKjAAXNdDv_BT0XGAMJd1za6AmmaZw1LqfuchtuKkPz6Kd.SqgOYiocLyX00gUe 
-Passcode: *Cf3.Zs4
+<a href="https://generalassembly.zoom.us/rec/share/v-J2NdgcYTz0cLUAfdVKjAAXNdDv_BT0XGAMJd1za6AmmaZw1LqfuchtuKkPz6Kd.SqgOYiocLyX00gUe " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  *Cf3.Zs4
+
 
 
 
@@ -196,9 +194,8 @@ Passcode: *Cf3.Zs4
 | Lesson 14 (w7:d2)   |Bootstrap  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
-https://generalassembly.zoom.us/rec/share/VM4R_BHL1ADYarUnSFqGjkN-g19bhLC9t0b0BXMjyp37pbbXBQaTCFn5Gd-kn3iy.vqeBYW6KO0rfetgQ 
-Passcode: B!?f5Co=
+<a href="https://generalassembly.zoom.us/rec/share/VM4R_BHL1ADYarUnSFqGjkN-g19bhLC9t0b0BXMjyp37pbbXBQaTCFn5Gd-kn3iy.vqeBYW6KO0rfetgQ " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: B!?f5Co=
+ 
 
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
