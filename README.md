@@ -168,14 +168,15 @@ Passcode: K.c*k8t!
 | Lesson 11 (w6:d1)   | Responsive Review, Troubleshooting, More Applied Media Queires  |   N/A |
 
 **Zoom Link:**
-<!-- <a href="" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode:  -->
+<a href="https://generalassembly.zoom.us/rec/share/SGPBGOAyKnNF-Ii55z6nEgk-2CSrMiby98IetubedWmGezPIcSF3_ByIAlJOO9pr.yjlBMwAf7VPx5Jgu" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: mJHYpF6=
+
 
 | Lesson # (Week:Day) | In Class                    | Homework                       |
 | ------------------- | --------------------------- | ------------------------------ |
 | Lesson 12 (w6:d2)    | Mid Course Review  |   Trulia Landing Returns |
 
 **Zoom Link:**
-<a href="https://generalassembly.zoom.us/rec/share/SGPBGOAyKnNF-Ii55z6nEgk-2CSrMiby98IetubedWmGezPIcSF3_ByIAlJOO9pr.yjlBMwAf7VPx5Jgu " target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: mJHYpF6=
+<a href="https://generalassembly.zoom.us/rec/share/kvEgDvFv64sPmuIUhijjDDsW9lqbFWzvFOqU-ExJXgc-c0mhDcj0coFmn9xM6jm8.lOTkQTDNO0q_DYka" target="_blank" rel="noopener noreferrer" >Click here to view recording</a><br />Passcode: 3ZgB%B$1
 
 
 
