@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DAD JOKES!</title>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary border-bottom border-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+     
+          Dad Jokes 😁 
+        </a>
+      </div>
+    </nav>
+    <div class="text-center mt-4">
+      <button type="button" class="btn btn-outline-secondary text-center mb-5" id="moreJokes">More Jokes</button>
+    </div>
+    
+
+    <div class="container-fluid text-center">
+      <div class="row align-items-center">
+        <div class="col p-5">
+          <h1></h1>
+        </div>
+        
+      </div>
+    </div>
+    
+
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+  </body>
+</html>

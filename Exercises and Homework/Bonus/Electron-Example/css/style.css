@@ -1,0 +1,10 @@
+#moreJokes{
+width: 200px;
+}
+
+body{
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
