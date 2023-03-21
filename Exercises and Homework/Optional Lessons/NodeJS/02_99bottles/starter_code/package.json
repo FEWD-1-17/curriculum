@@ -1,0 +1,22 @@
+{
+  "name": "99_bottles_express",
+  "version": "1.0.0",
+  "description": "Build an express application that enables users to count down the number of bottles of beer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga-dc/99_bottles_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ga-dc/99_bottles_express/issues"
+  },
+  "homepage": "https://github.com/ga-dc/99_bottles_express#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
